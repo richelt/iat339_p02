@@ -900,6 +900,7 @@ figure.classes h3 {
   transform: scale(1.5);
 }
 
+
 figure.classes:hover figcaption::before,
 figure.classes:hover h3 {
   opacity: 1;

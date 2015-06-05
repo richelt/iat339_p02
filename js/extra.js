@@ -38,6 +38,6 @@ $(document).ready(function() {
 });
 
 
-$('li').click(function(){
-    $(this).css('color','red');
+$('#selected').click(function(){
+    $("figure.events img").css('opacity','0');
 });
