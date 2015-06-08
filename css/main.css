@@ -1,0 +1,750 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em; 
+  background-color: black;
+  color: white;
+  padding: 1em;
+  padding: 2rem;
+}
+.main-nav {
+}
+body::-webkit-scrollbar {
+    width: 1em;
+    margin-left: 1em;
+    color: white;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    background-color: black;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: white;
+
+  outline: 1px solid white;
+}
+
+section:not([id]) {
+  margin: 3em 0;
+  padding: 0.5em 0;
+  border-top: none;
+  
+}
+section{
+  margin-bottom: 3em
+}
+/* section h2{
+  margin-top: 0;
+  margin-bottom: 1em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid white;
+ }*/
+
+div code {
+  background-color: #EEE;
+  margin: 1em 0;
+  padding-top: 0.1em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  color: black;
+}
+
+/* 
+   GRID -----------------------------------------------
+*/
+
+[class*='col-'] {
+  float: right;
+  padding: 0;
+  text-align: left;
+}
+
+[class*='col-'] {
+  padding-right: 20px;
+}
+[class*='col-']:last-of-type {
+  padding-right: 50px;
+}
+@media (max-width: 70em) {
+    .grid-pad .col-1-3 {
+  width: 100%;
+ 
+}
+
+}
+
+@media (max-width: 50em) {
+
+  .grid-pad .col-1-4{
+    width: 100%;
+    padding-bottom: 2em;
+    position: relative;
+  }
+    .grid-pad .col-3-4 {
+    width: 100%;
+
+    padding-left: 0;
+  }
+    .grid-pad .col-1-2 {
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+  }
+
+  .grid-pad .col-1-3 {
+  width: 100%;
+ 
+}
+
+
+}
+
+.grid-pad {
+  padding: 0px 0 50px 0px;
+}
+
+.grid-pad > [class*='col-']:last-of-type {
+  padding-right: 50px;
+}
+
+.col-1-4 {
+  width: 30%;
+  position: fixed;
+}
+
+.mon {
+  background-color: #c11247;
+}
+.tues {
+  background-color: orange;
+}
+.wed {
+  background-color: #FFBF00;
+}
+.thurs{
+  background-color: #8B0A50;
+}
+.col-1-3 {
+  width: 50%;
+  float: left;
+  height: 300px;
+  padding: 5em 2em 2em 2em;
+
+ 
+}
+
+.col-1-3 h1{
+  margin-bottom: 0;
+
+}
+.col-1-3 h3{
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0.4em;
+}
+.col-1-3 p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.col-1-5 h4{
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0.1em;
+}
+
+.col-1-5 p {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.col-1-6 h4{
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0.1em;
+}
+
+.col-1-6 p {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+.col-1-2{
+  width: 50%;
+  float: left;
+  padding-top: 0px;
+  margin-bottom: 4em;
+  height: auto;
+  min-height: 250px;
+  overflow: hidden;
+  overflow: scroll;
+}
+.col-3-4 {
+  width: 70%;
+  padding-left: 2em;
+
+}
+.col-1-5 {
+  width: 50%;
+  padding-bottom: 1em;
+  float: left;
+  height: 70px;
+}
+
+.col-1-6 {
+  width: 30%;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  float: left;
+  height: 70px;
+}
+
+.col-1-1 {
+  
+  float: left;
+}
+
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.event-1 {
+  
+  background-color: grey;
+
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+
+.button-nav-side, .button-nav-side:visited {
+  display: inline-block;
+  background-color: transparent;
+  color: white;
+  padding: 1em 1.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.button-nav-side:hover, .button-nav-side:active, .button-nav-side:focus {
+  background-color: gray;
+  color: white;
+}
+
+.main-nav .button-nav-side{
+  margin-top: 1em;
+  margin-right: 1em;
+}
+.button-nav-side{
+  display: inline-block;
+  margin: 0.2em 0;
+  margin-bottom: 1em;
+  text-align: center;
+  
+  padding: 1em 1.25em;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+
+
+  font-weight: lighter;
+  font-size: 1rem; 
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+
+  /* css webkit transition: cubic-beizer provides smooth transition for all animations. got the values
+  from http://cubic-bezier.com/ */
+  -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.button-nav-side:hover, .button-nav-side:focus {
+  background-color: white;
+  color: black;
+}
+
+.button-bold, .button-bold:visited {
+  display: inline-block;
+  background-color: white;
+  color: red;
+  padding: 1em 1.25em;
+  text-decoration: none;
+
+    /* css webkit transition: background changes slower, 0.5 second transition */
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+.button-bold{
+  margin: 1em 1em;
+  display: inline-block;
+  margin: 0.2em 0;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5em 0.7em;
+  color: red;
+  background: transparent;
+  border: 2px solid red;
+
+
+  font-weight: lighter;
+  font-size: 1rem; 
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+
+  /* css webkit transition: another cubic-beizer */
+  -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+
+}
+
+.button-bold:active, .button-bold:hover, .button-bold:focus {
+  background-color: red;
+  color: black;
+}
+.button-bold:hover, .button-bold:focus {
+  background-color: red;
+  color: black;
+}
+
+.button-submit, .button-submit:visited {
+  display: inline-block;
+  background-color: transparent;
+  color: green;
+  padding: 1em 1.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+
+
+.button-submit{
+  margin: 0em 0.5em;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5em 0.7em;
+  color: green;
+  background: transparent;
+  border: 2px solid green;
+
+
+  font-weight: lighter;
+  font-size: 1rem; 
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+
+}
+.button-submit:active, .button-submit:hover, .button-submit:focus {
+  background-color: green;
+  color: white;
+}
+.button-submit:hover, .button-submit:focus {
+  background-color: green;
+  color: black;
+}
+
+
+.button-reset, .button-reset:visited {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 1em 1.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+
+
+.button-reset{
+  margin: 0em 0.5em;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5em 0.7em;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+
+
+  font-weight: lighter;
+  font-size: 1rem; 
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+
+}
+.button-reset:active, .button-reset:hover, .button-reset:focus {
+  background-color: white;
+  color: black;
+}
+.button-reset:hover, .button-reset:focus {
+  background-color: white;
+  color: black;
+}
+
+.search input{
+  display: inline-block;
+  text-align: center;
+  padding: 1em 1.5em;
+  vertical-align: middle;
+
+  text-transform: uppercase;
+  color: white;
+  border: 2px solid white;
+    
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  font-size: 1rem; 
+  letter-spacing: 2px;
+  
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+    
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+    
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.search .input:hover{
+  border-color: white;
+}
+.search .input:focus{
+  border-color: white;
+  border-width: 2px;
+  color: white;
+}
+
+.search .input{
+  padding: 1em 1.5em;
+  background-color: black;
+  font-weight: 200;    
+  font-size: 1rem; 
+  letter-spacing: 2px;
+}
+
+.form input{
+  display: inline-block;
+  margin-top: 1em;
+  margin-right: 1em;
+  text-align: center;
+  padding: 1em 1.5em;
+  vertical-align: middle;
+
+  text-transform: uppercase;
+  color: white;
+  border: 2px solid white;
+    
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  font-size: 1rem; 
+  letter-spacing: 2px;
+  
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+    
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+    
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.form .input:hover{
+  border-color: white;
+}
+.form .input:focus{
+  color: #111;
+  border-color: white;
+  border-width: 2px;
+  color: white;
+}
+
+.form .input{
+  margin-top: 1em;
+  margin-right: 1em;
+    padding: 1em 1.5em;
+    
+    background-color: black;
+   
+    
+    font-weight: 200;
+    
+    font-size: 1rem; 
+    letter-spacing: 2px;
+}
+
+.form textarea{
+  margin-top: 1em;
+  margin-right: 1em;
+  min-height: 100px;
+  min-width: 300px;
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  padding: 20px;
+
+  background-color: black;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  border-width: 2px;
+  text-align: center;
+
+  border-color: white;
+  outline: none;
+  
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+    
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.form textarea:hover{
+  border-color: white;
+}
+.form textarea:focus{
+  color: #111;
+  border-color: white;
+  border-width: 2px;
+  -webkit-box-shadow: 0 0 3px rgba(21,21,21, .3);
+  -moz-box-shadow: 0 0 3px rgba(21,21,21, .3);
+  box-shadow: 0 0 3px rgba(21,21,21, .3);
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+a {
+  color: white; 
+}
+a:visited {
+  color: white;
+}
+
+
+a:active, a:hover {
+  color: white; 
+  text-decoration: none;
+}
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem; 
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin-bottom: 0.1em;
+  letter-spacing: 2px;
+  margin-top: 0;
+  font-size: 2rem; 
+  
+}
+
+
+strong a {
+  
+  font-size: 1.2rem; 
+  font-style: italic ;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 0.5;
+  padding-right: 0;
+  color: orange;
+
+}
+strong a:active, h2 a:hover {
+  color: orange;
+  text-decoration: line-through;
+
+
+}
+strong a:visited{
+  color: orange;
+  text-decoration: line-through;;
+}
+
+.col-1-2 h3 {
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  padding-bottom: 0;
+  margin: 0;
+
+  font-size: 1.5rem; 
+
+}
+
+
+h3 {
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  padding-bottom: 0.5em;
+  font-size: 1.5rem; 
+
+}
+
+h4 {
+  margin: 0;
+  padding-bottom: 0.3em;
+  padding-top: 1em;
+  font-size: 1rem; 
+
+}
+
+ul{
+  list-style-type: none;
+  letter-spacing: 2px;
+  font-weight: italic;
+}
+
+ul, ol {
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-align: left;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  padding-bottom: 0;
+
+}
+.strong p{
+  font-weight: bold;
+}
+
+.light p {
+  font-weight: 100;
+}
+
+li {
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+  font-size: 1.2rem; 
+  
+}
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+
+*/
+
+img {
+  height: auto; 
+  width: auto;
+  max-width: 100%;
+  border: 1px solid #888888; 
+}
+
+
+figure {
+  margin: 0;
+}
+
+
+figcaption {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
