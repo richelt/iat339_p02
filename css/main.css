@@ -88,6 +88,10 @@ div code {
 
 @media (max-width: 50em) {
 
+  .h4{
+    font-size: 0.7em;
+  }
+
   .grid-pad .col-1-4{
     width: 100%;
     padding-bottom: 2em;
@@ -215,7 +219,7 @@ div code {
 
 .col-1-6 {
   width: 30%;
-  padding-right: 2em;
+  padding-right: 8em;
   padding-bottom: 2em;
   float: left;
   height: 70px;
@@ -234,7 +238,7 @@ div code {
 }
 .event-1 {
   
-  background-color: grey;
+  background-color: none;
 
 }
 
