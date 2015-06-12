@@ -332,12 +332,14 @@ div code {
   -moz-border-radius: 0;
   border-radius: 0;
 
-  /* css webkit transition: another cubic-beizer */
-  -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  /* 
+  css webkit transition: another cubic-beizer */
+  /*-webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
   -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
   -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
   -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
   transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  */
 
 }
 
