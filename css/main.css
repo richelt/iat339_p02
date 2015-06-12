@@ -266,7 +266,7 @@ div code {
   border: 2px solid white;
 
 
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 1rem; 
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -311,7 +311,7 @@ div code {
   border: 2px solid red;
 
 
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 1rem; 
   text-transform: uppercase;
   text-decoration: none;
@@ -360,7 +360,7 @@ div code {
   border: 2px solid green;
 
 
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 1rem; 
   text-transform: uppercase;
   text-decoration: none;
@@ -407,7 +407,7 @@ div code {
   border: 2px solid white;
 
 
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 1rem; 
   text-transform: uppercase;
   text-decoration: none;
@@ -432,7 +432,7 @@ div code {
 
 .search input{
   display: inline-block;
-  text-align: center;
+  text-align: left;
   padding: 1em 1.5em;
   vertical-align: middle;
 
@@ -441,7 +441,7 @@ div code {
   border: 2px solid white;
     
   font-family: "Lato", sans-serif;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 1rem; 
   letter-spacing: 2px;
   
@@ -485,7 +485,7 @@ div code {
   display: inline-block;
   margin-top: 1em;
   margin-right: 1em;
-  text-align: center;
+  text-align: left;
   padding: 1em 1.5em;
   vertical-align: middle;
 
@@ -557,7 +557,7 @@ div code {
   letter-spacing: 2px;
   color: white;
   border-width: 2px;
-  text-align: center;
+  text-align: left;
 
   border-color: white;
   outline: none;
