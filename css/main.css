@@ -270,7 +270,7 @@ div code {
   padding: 1em 1.25em;
   color: #040c17;
   background: transparent;
-  border: 2px solid #040c17;
+  border: 0.2rem solid #040c17;
 
 
   font-weight: bold;
@@ -320,14 +320,14 @@ div code {
 }
 .button-nav-side{
   display: inline-block;
-  margin: 0.2em 0;
+  margin: 0 0;
   margin-bottom: 1em;
   text-align: center;
   
   padding: 1em 1.25em;
   color: white;
   background: transparent;
-  border: 2px solid white;
+ /* border-bottom: rem solid white;*/
 
 
   font-weight: bold;
@@ -338,15 +338,6 @@ div code {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-
-  /* css webkit transition: cubic-beizer provides smooth transition for all animations. got the values
-  from http://cubic-bezier.com/ */
-  /*-webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-  -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-  -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-  -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-  transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-  */
 }
 .button-nav-side:hover, .button-nav-side:focus {
   background-color: white;
@@ -383,13 +374,6 @@ div code {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-
-  /* css webkit transition: another cubic-beizer */
-  -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-  -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-  -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-  -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
-  transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 
 }
 

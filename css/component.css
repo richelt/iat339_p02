@@ -101,16 +101,16 @@ body,
 }
 
 .menu h1 {
-	margin: 2em 2em 0 1.5em;
+	margin: 2em 2em 0 2em;
 	padding: 0;
 	color: white;
 	font-weight: 300;
 	font-size: 2em;
-	text-align: left;
+	text-align: center;
 }
 
 .menu ul li a {
-	/*display: block;*/
+	display: block;
 	color: #f3efe0;
 	text-transform: uppercase;
 	-webkit-transition: background 0.3s, box-shadow 0.3s;
