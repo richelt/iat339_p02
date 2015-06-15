@@ -64,7 +64,7 @@ body,
 	left: 0;
 	z-index: 100;
 	visibility: hidden;
-	width: 300px;
+	width: 250px;
 	height: 100%;
 	background-color: #040c17;
 	-webkit-transition: all 0.5s;
@@ -101,7 +101,7 @@ body,
 }
 
 .menu h1 {
-	margin: 2em 2em 0 2em;
+	margin: 2em 2em 0 1.5em;
 	padding: 0;
 	color: white;
 	font-weight: 300;
@@ -110,7 +110,7 @@ body,
 }
 
 .menu ul li a {
-	display: block;
+	/*display: block;*/
 	color: #f3efe0;
 	text-transform: uppercase;
 	-webkit-transition: background 0.3s, box-shadow 0.3s;
@@ -129,8 +129,8 @@ body,
 
 /* Effect 3: Push*/
 .effect-3.menu-open .pusher {
-	-webkit-transform: translate3d(300px, 0, 0);
-	transform: translate3d(300px, 0, 0);
+	-webkit-transform: translate3d(250px, 0, 0);
+	transform: translate3d(250px, 0, 0);
 }
 
 .effect-3.menu {
@@ -151,21 +151,7 @@ body,
 /* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
 .no-csstransforms3d .pusher,
 .no-js .pusher {
-	padding-left: 300px;
-}
-
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-
-
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
-.clearfix:before,
-.clearfix:after {
-	display: table;
-	content: " ";
-}
-
-.clearfix:after {
-	clear: both;
+	padding-left: 250px;
 }
 
 

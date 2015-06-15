@@ -116,7 +116,7 @@ div code {
 }
 
 .grid-pad {
-  padding: 0px 0 50px 0px;
+  padding: 2em;
 }
 
 .grid-pad > [class*='col-']:last-of-type {
@@ -247,7 +247,7 @@ div code {
 
 /* Styling for the navigation button */
 .button-nav, .button-nav:visited {
-  display: inline-block;
+  /*display: block;*/
   background-color: transparent;
   color: #040c17;
   padding: 1em 1.25em;
@@ -262,7 +262,7 @@ div code {
 }
 
 .button-nav{
-  display: inline-block;
+  /*display: inline-block;*/
   margin: 2em;
   margin-bottom: 1em;
   text-align: center;
