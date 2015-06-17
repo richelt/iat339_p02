@@ -248,4 +248,18 @@ section {
   line-height: 1.5em;
  }
 
+.col-1-1-testimonials{
+	background-color: black;
+	padding:5em;
+	width: 100%;
+	float:left;
+ 	text-align: center;
+	  margin-top: 0;
+	  color: white;
+	  line-height: 1.5em;
+ padding:2.5em;
+	 border-top: 1px solid #ccc;
+}
+
+
 
