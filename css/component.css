@@ -165,10 +165,10 @@ body,
 
 }
 
-.trigger-effects {
-	position: absolute;
+.header {
+	padding-bottom: 1em;
+	
 }
-
 section {
   width: 100%;
   padding: 0;
@@ -182,18 +182,38 @@ section {
 .intro {
 	margin:0;
   height: 100vh;
-  background-color: white;
+  background-color: #f9f9f9;
   color: black;
 }
 
 .intro-logo {
-	display: inline-block;
-	padding-top: 50vh;
-	padding-left: 5em;
+	position: relative;
+	padding-top: 25vh;
+	padding-left: 0;
 }
 
 .intro-logo h1 {
-	font-size: 5em;
+	font-size: 6em;
+	margin-bottom: 0;
 
 }
+
+.intro-logo h3 {
+	font-size: 2em;
+	margin: 0;
+
+}
+
+
+.col-1-1-intro {
+	width: 100%;
+	float: center;
+  	padding-left: 2em;
+  	text-align: center;
+}
+.col-1-2-about{
+	width: 50%;
+  	float: center;
+}
+
 
