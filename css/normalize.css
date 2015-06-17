@@ -121,11 +121,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-h1 {
-  font-size: 2em;
-  margin-top: 0;
-  margin-bottom: 0.5em;
-}
+
 
 /**
  * Address styling not present in IE 8/9.
