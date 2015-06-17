@@ -171,11 +171,8 @@ body,
 }
 section {
   width: 100%;
-  padding: 0;
-  margin: 0;
   max-width: none;
   background-color: white;
-  height: 100vh;
   
 }
 
@@ -212,7 +209,7 @@ section {
   	text-align: center;
 }
 .col-1-1-about{
-	margin-top: 5em;
+	padding:5em;
 	width: 100%;
   	float: center;
   	text-align: center;
@@ -228,15 +225,16 @@ section {
  }
 
 .col-1-2-instructor{
+	padding:5em;
 	width: 50%;
 	float:left;
- text-align: left;
-  margin-top: 0;
-  color: black;
-  line-height: 1.5em;
-  padding:5em;
-  border-top: 1px solid #ccc;
- }
+ 	text-align: left;
+	  margin-top: 0;
+	  color: black;
+	  line-height: 1.5em;
+ padding:5em;
+	 border-top: 1px solid #ccc;
+}
 
  .col-1-2-instructor img{
  	width:100%;
