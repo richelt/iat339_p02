@@ -222,8 +222,32 @@ section {
 .col-1-1-about p{
   color: black;
   line-height: 1.5em;
+  text-align: center;
   float:center;
-  width:50%;
+  width:auto;
+ }
+
+.col-1-2-instructor{
+	width: 50%;
+	float:left;
+ text-align: left;
+  margin-top: 0;
+  color: black;
+  line-height: 1.5em;
+  padding:5em;
+  border-top: 1px solid #ccc;
+ }
+
+ .col-1-2-instructor img{
+ 	width:100%;
+ }
+
+
+.col-1-2-instructor p{
+	float:left;
+ text-align: left;
+  color: black;
+  line-height: 1.5em;
  }
 
 
