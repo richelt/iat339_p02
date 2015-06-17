@@ -399,7 +399,7 @@ div code {
 
 
 .button-submit{
-  margin: 0em 0.5em;
+  margin-top: 0.5em;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -407,7 +407,7 @@ div code {
   color: #8baaad;
   background: transparent;
   border: 2px solid #8baaad;
-
+  float:right;
 
   font-weight: bold;
   font-size: 1rem; 
@@ -531,6 +531,7 @@ div code {
 }
 
 .form input{
+  float:left;
   display: inline-block;
   margin-top: 1em;
   margin-right: 1em;
@@ -540,7 +541,7 @@ div code {
 
   text-transform: uppercase;
   color: white;
-  border: 2px solid white;
+  border: 2px solid black;
     
   font-family: "Lato", sans-serif;
   font-weight: lighter;
@@ -573,6 +574,13 @@ div code {
   color:  #040c17;
   border-color: black;
   border-width: 2px;
+
+}
+.form .input:focus{
+  color: #111;
+  border-color: orange;
+  color: black;
+ 
 }
 
 .form .input{
@@ -581,10 +589,11 @@ div code {
     padding: 1em 1.5em;
     
     background-color: white;
-      border-width: 2px;
-      border-color: black;
-   
-    
+
+     border-color: black 2px;
+
+      color: black;
+
     font-weight: 200;
     
     font-size: 1rem; 
@@ -593,7 +602,6 @@ div code {
 
 .form textarea{
   margin-top: 1em;
-  margin-right: 1em;
   min-height: 100px;
   min-width: 300px;
   font-family: "Lato", sans-serif;
@@ -621,15 +629,13 @@ div code {
   border-radius: 0;
 }
 .form textarea:hover{
-  border-color: black;
+  border-color: #c11247;
 }
 .form textarea:focus{
-  color: white;
-  border-color: black;
+
+  color: #111;
+  border-color: orange;
   border-width: 2px;
-  -webkit-box-shadow: 0 0 3px rgba(21,21,21, .3);
-  -moz-box-shadow: 0 0 3px rgba(21,21,21, .3);
-  box-shadow: 0 0 3px rgba(21,21,21, .3);
 }
 
 /* 

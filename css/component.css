@@ -261,6 +261,12 @@ section {
 	 border-top: 1px solid #ccc;
 }
 
+.col-1-1-contact-form{
+	width:auto;
+	text-align: center;
+	float:center;
+	padding: 5em 5em;
+}
 
 
 
