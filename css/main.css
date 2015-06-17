@@ -37,13 +37,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 section:not([id]) {
-  margin: 3em 0;
-  padding: 0.5em 0;
+  margin: 0 0;
+  padding: 0 0;
   border-top: none;
   
 }
 section{
-  margin-bottom: 3em
+
 }
 /* section h2{
   margin-top: 0;
@@ -263,6 +263,7 @@ div code {
 
 .button-nav{
   /*display: inline-block;*/
+  position: absolute;
   margin: 2em;
   margin-bottom: 1em;
   text-align: center;

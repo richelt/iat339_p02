@@ -164,3 +164,30 @@ body,
 
 
 }
+
+.trigger-effects {
+	position: absolute;
+}
+
+section {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh;
+  
+}
+
+.intro {
+	margin:0;
+  height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+.intro-logo {
+	padding-top: ;
+	padding-left: ;
+}
+
