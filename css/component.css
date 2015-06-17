@@ -187,7 +187,13 @@ section {
 }
 
 .intro-logo {
-	padding-top: ;
-	padding-left: ;
+	display: inline-block;
+	padding-top: 50vh;
+	padding-left: 5em;
+}
+
+.intro-logo h1 {
+	font-size: 5em;
+
 }
 
