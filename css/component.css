@@ -261,11 +261,33 @@ section {
 	 border-top: 1px solid #ccc;
 }
 
-.col-1-1-contact-form{
-	width:auto;
+.col-1-2-contact-form{
+	width:50%;
 	text-align: center;
 	float:center;
 	padding: 5em 5em;
+	float:left;
+}
+
+.col-1-2-contact-form li{
+display:inline-block;
+text-decoration: none;
+list-style: none;
+}
+
+.col-1-2-contact-form a{
+	font-size: 0.75em;
+color:black;
+ font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding:1em;
+}
+
+.col-1-2-contact-form a:hover{
+	text-decoration: underline;
+
 }
 
 
