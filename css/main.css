@@ -16,8 +16,9 @@ body {
   color: white;
   padding: 0;
 }
-
-.main-nav {
+.styleguide{
+  background-color: black;
+  color: white;
 }
 body::-webkit-scrollbar {
     width: 1em;

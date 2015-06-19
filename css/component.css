@@ -190,19 +190,23 @@ section {
 }
 
 .intro-logo h1 {
+
 	font-size: 6em;
 	margin-bottom: 0;
+	color: white;
 
 }
 
 .intro-logo h3 {
 	font-size: 2em;
 	margin: 0;
+	color: white;
 
 }
 
 
 .col-1-1-intro {
+	z-index: 2;
 	width: 100%;
 	float: center;
   	padding-left: 2em;
@@ -261,22 +265,24 @@ section {
 	 border-top: 1px solid #ccc;
 }
 
-.col-1-2-contact-form{
-	width:50%;
+.col-1-1-contact-form{
+	width:100%;
 	text-align: center;
-	float:center;
 	padding: 5em 5em;
-	float:left;
+	float: center;
 }
 
-.col-1-2-contact-form li{
+.col-1-1-contact-form li{
 display:inline-block;
 text-decoration: none;
 list-style: none;
 }
-
-.col-1-2-contact-form a{
-	font-size: 0.75em;
+.col-1-1-contact-form ul{
+text-align: center;
+padding: 0;
+}
+.col-1-1-contact-form a{
+font-size: 0.75em;
 color:black;
  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -285,10 +291,369 @@ color:black;
   padding:1em;
 }
 
-.col-1-2-contact-form a:hover{
+.col-1-1-contact-form a:hover{
 	text-decoration: underline;
 
 }
 
 
 
+.col-1-4-contact-form {
+	display: block;
+width: 40%;
+float: left;
+margin: 0 0;
+
+
+}
+.col-1-6-contact-form {
+	display: block;
+width: 60%;
+float: left;
+margin: 0 0;
+
+
+}
+
+
+.form {
+	float: left;
+}
+
+.col-1-1-events {
+	margin: 0 auto;
+}
+
+
+.col-1-1-events  figure {
+	position: relative;
+	float: center;
+	overflow: hidden;
+	margin: 0;
+	max-height: 600px;
+	width: auto;
+	background: black;
+	text-align: center;
+	cursor: pointer;
+}
+
+.col-1-1-events  figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.col-1-1-events  figure figcaption {
+	padding: 0.1em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.col-1-1-events  figure figcaption::before,
+.col-1-1-events  figure figcaption::after {
+	pointer-events: none;
+}
+
+.col-1-1-events figure figcaption,
+.col-1-1-events  figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.col-1-1-events  figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.col-1-1-events  figure h2 {
+	word-spacing: -0.15em;
+	
+	font-weight: 300;
+	margin: none;
+}
+
+.col-1-1-events  figure h2 span {
+	font-weight: 800;
+}
+
+.col-1-1-events  figure h2,
+.col-1-1-events  figure p {
+	margin: 0;
+}
+
+.col-1-1-events  figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+
+
+.col-1-1-events li {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 400px;
+	margin: 0.4em 0.2em;
+
+}
+
+.col-1-1-events ul {
+	list-style: none;
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+
+/* used hover effects examples from: http://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/ */
+
+figure.events img {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.12);
+	transform: scale(1.12);
+}
+
+figure.events:hover img {
+	opacity: 0.5;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.events figcaption {
+	padding: 3em;
+}
+
+figure.events figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border: 1px solid #fff;
+	content: '';
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+figure.events figcaption::before,
+figure.events p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.events h2 {
+	padding: 20% 0 20px 0;
+}
+
+figure.events p {
+	margin: 0 auto;
+	max-width: 200px;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+figure.events:hover figcaption::before,
+figure.events:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+
+
+
+.col-1-1-classes {
+	width: 100%;
+	margin: 3em auto;
+	float: none;
+}
+
+
+.col-1-1-classes  figure {
+	position: relative;
+	float: center;
+	overflow: hidden;
+	margin: 0;
+	max-height: 600px;
+	width: auto;
+	background: black;
+	text-align: center;
+	cursor: pointer;
+}
+
+.col-1-1-classes  figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.col-1-1-classes  figure figcaption {
+	padding: 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.col-1-1-classes  figure figcaption::before,
+.col-1-1-classes  figure figcaption::after {
+	pointer-events: none;
+}
+
+.col-1-1-classes figure figcaption,
+.col-1-1-classes  figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.col-1-1-classes  figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.col-1-1-classes  figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+	margin: none;
+}
+
+.col-1-1-classes  figure h2 span {
+	font-weight: 800;
+}
+
+.col-1-1-classes  figure h2,
+.col-1-1-classes  figure p {
+	margin: 0;
+}
+
+.col-1-1-classes  figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+
+
+.col-1-1-classes li {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 360px;
+	margin: 0.2em;
+}
+
+.col-1-1-classes ul {
+	vertical-align: middle;
+	list-style: none;
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+
+/* used hover effects examples from: http://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/ */
+
+figure.classes img {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.12);
+	transform: scale(1.12);
+}
+
+figure.classes:hover img {
+	opacity: 0.5;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.classes figcaption {
+	padding: 3em;
+}
+
+figure.classes figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border: 1px solid #fff;
+	content: '';
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+figure.classes figcaption::before,
+figure.classes p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.classes h2 {
+	padding: 20% 0 20px 0;
+}
+
+figure.classes p {
+	margin: 0 auto;
+	max-width: 200px;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+figure.classes:hover figcaption::before,
+figure.classes:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+@media screen and (max-width: 50em) {
+	.content {
+		padding: 0 0px;
+		text-align: center;
+	}
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+}
+
+
+
+
+.video {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
