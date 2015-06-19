@@ -268,9 +268,9 @@ div code {
   text-align: center;
   
   padding: 1em 1.25em;
-  color: #040c17;
+  color: white;
   background: transparent;
-  border: 0.2rem solid #040c17;
+  border: 0.2rem solid white;
 
 
   font-weight: bold;
@@ -292,7 +292,7 @@ div code {
   */
 }
 .button-nav:hover, .button-nav:focus {
-  background-color: #040c17;
+  background-color: #c11247;
   color: #f9f9f9;
 }
 
