@@ -165,10 +165,25 @@ body,
 
 }
 
-.header {
+header {
+	background-color: transparent;
 	padding-bottom: 1em;
+	z-index: 100;
+	top: 0;
+    transition: top 0.2s ease-in-out;
+      color: #fff;
+  background: #e01935;
+  height: 44px;
+  width: 100%;
+  padding: 0 10px;
+  position: fixed;
 	
 }
+
+.nav-up {
+    top: -100px;
+}
+
 section {
   width: 100%;
   max-width: none;
