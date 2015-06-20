@@ -125,6 +125,43 @@ body,
 
 }
 
+.desktop-nav {
+
+
+}
+.desktop-nav ul {
+	display:inline-block;
+text-decoration: none;
+list-style: circle;
+	color: #f3efe0;
+	text-transform: uppercase;
+
+
+}
+.desktop-nav li a {
+	border: 2px solid #fff;
+	border-radius: 50%;
+	z-index: 1;
+	-webkit-transition: border-color 0.3s ease;
+	transition: border-color 0.3s ease;
+	opacity: 0;
+}
+
+.desktop-nav li {
+border: 2px solid #fff;
+	border-radius: 50%;
+	z-index: 1;
+	-webkit-transition: border-color 0.3s ease;
+	transition: border-color 0.3s ease;
+}
+
+.desktop-nav li a::after {
+	opacity: 1;
+}
+
+.desktop-nav li:hover {
+	color: red;
+}
 /* Individual effects */
 
 /* Effect 3: Push*/
@@ -322,7 +359,7 @@ margin: 0 0;
 
 }
 .col-1-6-contact-form {
-	display: block;
+display: block;
 width: 60%;
 float: left;
 margin: 0 0;
