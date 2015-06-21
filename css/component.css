@@ -317,34 +317,43 @@ section {
 	 border-top: 1px solid #ccc;
 }
 
-.col-1-1-contact-form{
+.col-1-1-social-media{
 	width:100%;
 	text-align: center;
 	padding: 5em 5em;
-	float: center;
+	float: left;
+	background-color: black;
 }
 
-.col-1-1-contact-form li{
+.col-1-1-social-media li{
 display:inline-block;
 text-decoration: none;
 list-style: none;
+color: white;
 }
-.col-1-1-contact-form ul{
+.col-1-1-social-media ul{
 text-align: center;
 padding: 0;
 }
-.col-1-1-contact-form a{
+.col-1-1-social-media a{
 font-size: 0.75em;
-color:black;
  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  padding:1em;
+  padding:1em 1em 0 1em;
+  color: white;
 }
 
-.col-1-1-contact-form a:hover{
-	text-decoration: underline;
+.col-1-1-social-media h1{
+  color: white;
+}
+
+.col-1-1-social-media a:hover{
+
+	background-color: white;
+	color:black;
+	padding:1em;
 
 }
 
