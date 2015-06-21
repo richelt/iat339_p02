@@ -317,6 +317,12 @@ section {
 	 border-top: 1px solid #ccc;
 }
 
+.enroll-button{
+	text-align: center;
+	position:relative;
+	float:none;
+}
+
 .col-1-1-social-media{
 	width:100%;
 	text-align: center;
@@ -376,9 +382,23 @@ margin: 0 0;
 
 }
 
+.col-1-1-contact-form h1 h4{
+	text-align: center;
+}
 
+.col-1-1-contact-form{
+	padding:5em;
+}
+
+
+.map{
+	width:100%;
+	padding:2em;
+	height:100%;
+}
 .form {
 	float: left;
+	width:auto;
 }
 
 .col-1-1-events {
