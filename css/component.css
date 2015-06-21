@@ -326,7 +326,7 @@ section {
 .col-1-1-social-media{
 	width:100%;
 	text-align: center;
-	padding: 5em 5em;
+	padding: 2.5em 2.5em;
 	float: left;
 	background-color: black;
 }
@@ -388,6 +388,7 @@ margin: 0 0;
 
 .col-1-1-contact-form{
 	padding:5em;
+	border-top: 1px #ccc solid;
 }
 
 
@@ -453,7 +454,7 @@ margin: 0 0;
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
 .col-1-1-events  figure figcaption > a {
-	z-index: 1000;
+	z-index: 4;
 	text-indent: 200%;
 	white-space: nowrap;
 	font-size: 0;
