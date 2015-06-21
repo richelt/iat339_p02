@@ -393,9 +393,10 @@ margin: 0 0;
 
 .map{
 	width:100%;
-	padding:2em;
+	padding:0;
 	height:100%;
 }
+
 .form {
 	float: left;
 	width:auto;
