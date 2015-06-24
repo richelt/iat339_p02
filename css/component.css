@@ -391,6 +391,26 @@ margin: 0 0;
 
 }
 
+.col-1-1-contact-form a{
+
+    background: #ccc;
+    cursor: pointer;
+    border-top: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-bottom: solid 2px #777;
+    border-right: solid 2px #777;
+    padding: 5px 5px;   	
+ }
+
+.col-1-1-contact-form a:down {
+    background: #bbb;
+    border-top: solid 2px #777;
+    border-left: solid 2px #777;
+    border-bottom:solid 2px  #eaeaea;
+    border-right: solid 2px #eaeaea;
+    }
+}
+
 
 
 
@@ -731,11 +751,21 @@ figure.classes:hover p {
 }
 
 .checkout{
-	display:inline;
 	float:left;
-	padding-top: 1em;
+	padding-top: 3em;
 	padding-bottom: 0;
 }
+
+.checkout a{
+
+    background: none;
+    cursor: pointer;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    padding: none;   	
+	}
 
 .checkout p{
 		text-transform: uppercase;
@@ -760,4 +790,45 @@ color: black;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.dance-type{
+		padding-top:2em;	
+}
+
+.dance-type label{
+
+color: black;
+	font-size: 0.75em;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.dance-type p{
+	text-transform: uppercase;
+
+color: black;
+	font-size: 1em;
+ font-family: 'Montserrat', sans-serif;
+	 font-weight: 700;
+
+}
+
+.days{
+	padding-top:2em;	
+}
+
+.days label{
+padding: 1em 2em em 0em;
+color: black;
+	font-size: 0.75em;
+ font-family: 'Montserrat', sans-serif;
+
+}
+.days p{
+	text-transform: uppercase;
+
+color: black;
+	font-size: 1em;
+ font-family: 'Montserrat', sans-serif;
+	 font-weight: 700;
 }
