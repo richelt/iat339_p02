@@ -434,6 +434,41 @@ div code {
   color: #040c17;
 }
 
+.hero-button{
+  margin-top: 0.5em;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5em 0.7em;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  float:right;
+
+  font-weight: bold;
+  font-size: 1rem; 
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.hero-button:active, .button-submit:hover, .button-submit:focus {
+  background-color: #8baaad;
+  color: white;
+}
+.hero-button:hover, .button-submit:focus {
+  background-color: #8baaad;
+  color: #040c17;
+    border: 2px solid #8baaad;
+
+}
 
 .button-reset, .button-reset:visited {
   display: inline-block;

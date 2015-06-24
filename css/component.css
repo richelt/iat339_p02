@@ -238,19 +238,17 @@ section {
 .intro-logo {
 	position: relative;
 	padding-top: 25vh;
-	padding-left: 0;
 }
 
 .intro-logo h1 {
 
-	font-size: 6em;
+	font-size: 4em;
 	margin-bottom: 0;
 	color: white;
 
 }
 
 .intro-logo h3 {
-	font-size: 2em;
 	margin: 0;
 	color: white;
 
@@ -388,7 +386,7 @@ margin: 0 0;
 
 .col-1-1-contact-form{
 	padding:5em;
-	
+
 
 }
 
