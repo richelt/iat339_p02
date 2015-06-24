@@ -388,9 +388,16 @@ margin: 0 0;
 
 .col-1-1-contact-form{
 	padding:5em;
-	border-top: 1px #ccc solid;
+	
+
 }
 
+
+
+
+#form-message{
+	width:100%;
+}
 
 .map{
 	width:100%;
@@ -724,7 +731,22 @@ figure.classes:hover p {
 	}
 }
 
+.checkout{
+	display:inline;
+	float:left;
+	padding-top: 1em;
+	padding-bottom: 0;
+}
 
+.checkout p{
+		text-transform: uppercase;
+
+color: black;
+	font-size: 1em;
+ font-family: 'Montserrat', sans-serif;
+	 font-weight: 700;
+
+}
 
 
 .video {
