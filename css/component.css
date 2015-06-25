@@ -200,6 +200,7 @@ border: 2px solid #fff;
 
 
 
+
 }
 
 header {
@@ -264,6 +265,7 @@ section {
   	text-align: center;
 }
 .col-1-1-about{
+	height: 100vh;
 	padding:5em;
 	width: 100%;
   	float: center;
@@ -439,7 +441,7 @@ margin: 0 0;
 	float: center;
 	overflow: hidden;
 	margin: 0;
-	max-height: 600px;
+	max-height: 100vh;
 	width: auto;
 	background: black;
 	text-align: center;
@@ -588,6 +590,7 @@ figure.events:hover p {
 	width: 100%;
 	margin: 3em auto;
 	float: none;
+	max-height: 100vh;
 }
 
 
