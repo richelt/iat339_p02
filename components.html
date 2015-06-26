@@ -15,41 +15,24 @@
   </head>
 
   <body>
-  	<div id="container" class="container">
-  			<!-- content push wrapper -->
-			<div class="pusher">
-				<!-- 	
-					got this example from codedrops article on side menus, 
-					mostly just used the way they created containers (main containter, pusher and inner container) and as well as the java script for side bar 
-					push out effect.
+  	<div class="">
+			  <input type="checkbox" id="sidebartoggler">
+			<label class="toggle" for="sidebartoggler">MENU</label>
 
-					http://tympanus.net/Development/SidebarTransitions/
-				-->
-				<nav class="menu effect-3" id="menu-3">
-					<h1 class="">BRAVO LOGO</h1>
-					<ul>
-						<li><a class="button-nav-side" href="#">ABOUT</a></li>
-						<li><a class="button-nav-side" href="#">EVENTS</a></li>
-						<li><a class="button-nav-side" href="#">SCHEDULE</a></li>
-						<li><a class="button-nav-side" href="#">ABOUT</a></li>
-						<li><a class="button-nav-side" href="#">CONTACT</a></li>
-					</ul>
-				</nav>
+				<div class="page-content">
 
-				<div class="content"><!-- this is the wrapper for the content -->
+				<!-- this is the wrapper for the content -->
+						<!-- <header id="trigger-effects" class=" "> -->
+							<!-- <button effect="effect-3" class="button-nav">Menu</button> -->
 
-					<div class="content-inner">
-						<header id="trigger-effects" class="nav-down">
-							<button effect="effect-3" class="button-nav">Menu</button>
-
-						<a class="button-nav-side" href="#about-section">about</a>
+<!-- 						<a class="button-nav-side" href="#about-section">about</a>
 						<a class="button-nav-side" href="#enroll-section">enroll</a>
 						<a class="button-nav-side" href="#events-section">events</a>
 						<a class="button-nav-side" href="#contact-section">CONTACT</a>
-						<a class="button-nav-side" href="#social-section">social</a>
+						<a class="button-nav-side" href="#social-section">social</a> -->
 
-						</header>
-
+						<!-- </header>
+ -->
 						<section class="intro grid ">
 
 						  	<div class="intro-logo col-1-1-intro">
@@ -59,11 +42,11 @@
 
 						 	</div>
 
-						 	<video id="my-video" class="video" autoplay muted loop>
+<!-- 						<video id="my-video" class="video" autoplay muted loop>
 							  <source src="media/demo.mp4" type="video/mp4">
 							  <source src="media/demo.ogv" type="video/ogg">
 							  <source src="media/demo.webm" type="video/webm">
-							</video><!-- /video -->
+							</video> --><!-- /video -->
 
 						</section>
 
@@ -243,10 +226,23 @@
 						    	</ul>
 						    </div>	
 						</section>
+
+
+
 						
 					</div>
+
+				<div class="sidebar" id="">
+					<ul>
+						<li><a class="button-nav-side" href="#">ABOUT</a></li>
+						<li><a class="button-nav-side" href="#">EVENTS</a></li>
+						<li><a class="button-nav-side" href="#">SCHEDULE</a></li>
+						<li><a class="button-nav-side" href="#">ABOUT</a></li>
+						<li><a class="button-nav-side" href="#">CONTACT</a></li>
+					</ul>
 				</div>
-			</div>
+
+
 	</div>
 
 
@@ -276,9 +272,7 @@
   
 
     </div> -->
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="js/extra.js"></script>
-    	<script src="js/classie.js"></script>
 		<script src="js/sidebarEffects.js"></script>
   </body>
 
