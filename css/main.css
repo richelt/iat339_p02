@@ -38,7 +38,7 @@ body::-webkit-scrollbar-thumb {
 
 section:not([id]) {
   margin: 0 0;
-  padding: 0 0;
+  padding: 0;
   border-top: none;
   
 }
@@ -66,16 +66,11 @@ div code {
 */
 
 [class*='col-'] {
-  float: right;
-  padding: 0;
-  text-align: left;
+  padding: 1em;
 }
 
-[class*='col-'] {
-  padding-right: 20px;
-}
 [class*='col-']:last-of-type {
-  padding-right: 50px;
+  padding-right: 0;
 }
 @media (max-width: 70em) {
     .grid-pad .col-1-3 {
@@ -120,7 +115,7 @@ div code {
 }*/
 
 .grid-pad > [class*='col-']:last-of-type {
-  padding-right: 50px;
+  padding-right: 1em;
 }
 
 .col-1-4 {
@@ -436,7 +431,7 @@ div code {
 
 .hero-button{
   margin-top: 0.5em;
-  display: inline-block;
+  display: block;
   text-align: center;
   vertical-align: middle;
   padding: 0.5em 0.7em;

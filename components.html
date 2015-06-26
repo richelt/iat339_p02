@@ -1,279 +1,236 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pure CSS SideBar Nav</title>
+  <link rel="stylesheet" href="css/week3.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic,400italic|Playfair+Display:700,900,700italic,900italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+  <input type="checkbox" id="sidebartoggler">
 
-  <head>
+  <div class="page-wrapper">
 
-    <meta charset="utf-8">
-    <title>BRAVO DANCE</title>
+    <div class="page-content">
+    <div class="sidebar">
+      <ul>
+          <li><a class="button-nav-side" href="#about-section">about</a></li>
+          <li><a class="button-nav-side" href="#enroll-section">enroll</a></li>
+          <li><a class="button-nav-side" href="#events-section">events</a></li>
+            <li><a class="button-nav-side" href="#contact-section">CONTACT</a></li>
+           <li> <a class="button-nav-side" href="#social-section">social</a></li>
+      </ul>
+    </div>
 
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic,400italic|Playfair+Display:700,900,700italic,900italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <div class="content-inner">
+            <header>
+              <label class="toggle" for="sidebartoggler">MENU</label>
+              <div class= "desktop-nav">
+                <a class="button-nav-side" href="#about-section">about</a>
+                <a class="button-nav-side" href="#enroll-section">enroll</a>
+                <a class="button-nav-side" href="#events-section">events</a>
+                <a class="button-nav-side" href="#contact-section">CONTACT</a>
+                <a class="button-nav-side" href="#social-section">social</a>
+              </div>
+            </header>
+            <section class="intro grid ">
 
-  </head>
+                <div class="intro-logo col-1-1-intro">
+                  <h1>BRAVO</h1>
+                  <h3>DANCE COMPANY</h3>
+                  <div class="enroll-btn">
+                  <a href="classes.html" class="enroll-button hero-button">enroll now</a></div>
 
-  <body>
-  	<div class="">
-			  <input type="checkbox" id="sidebartoggler">
-			<label class="toggle" for="sidebartoggler">MENU</label>
+              </div>
 
-				<div class="page-content">
+           <video id="my-video" class="video" autoplay muted loop>
+                <source src="media/demo.mp4" type="video/mp4">
+                <source src="media/demo.ogv" type="video/ogg">
+                <source src="media/demo.webm" type="video/webm">
+              </video>
 
-				<!-- this is the wrapper for the content -->
-						<!-- <header id="trigger-effects" class=" "> -->
-							<!-- <button effect="effect-3" class="button-nav">Menu</button> -->
+            </section>
 
-<!-- 						<a class="button-nav-side" href="#about-section">about</a>
-						<a class="button-nav-side" href="#enroll-section">enroll</a>
-						<a class="button-nav-side" href="#events-section">events</a>
-						<a class="button-nav-side" href="#contact-section">CONTACT</a>
-						<a class="button-nav-side" href="#social-section">social</a> -->
+            <section class="about grid grid-pad">  
+                <div class="about-info col-1-1-about">
+                  <h1 id="about-section">ABOUT</h1>
+                  <h4>Bravo Dance Company</h4>
+                    <p>Salsa dancing in Vancouver has become more prominent in Vancouver’s entertainment and nightlife in response to the fast growing salsa community in the lower mainland. All year round you will now find a salsa night for every night of the week! Join our upcoming Summer salsa dancing courses and get on the dance floor! Bravo Dance Company is one of the hottest and most distinguished schools for salsa dancing in Vancouver, Canada and around the world! Our teaching technique represents the best of L.A. styles not to mention precise footwork and styling for both lead and follow.</p>
+              </div>
+            </section>
 
-						<!-- </header>
- -->
-						<section class="intro grid ">
+            <section class="instructor grid ">  
+                <div class="instructor-info col-1-2-instructor">
+                  <h1>instructor</h1>
+                  <h4>Alfonso Caldera</h4>
+                    <p>Alfonso Caldera is a W.S.F. World Salsa Champion and International Mayan Salsa Champion dancer. He is the director and choreographer of Bravo Dance Company (Salsa dancing in Vancouver service) and founder of BravoDanceCompany.com.</p>
+                    <p>Through the years, Alfonso competed in some of the top Salsa competitions where he consistently placed in the top three, including the Miami World Salsa Federation competition, winning the championship trophy.</p>
 
-						  	<div class="intro-logo col-1-1-intro">
-						    	<h1>BRAVO</h1>
-						    	<h3>DANCE COMPANY</h3>
-						    	<a href="classes.html" class="enroll-button hero-button">enroll now</a>
-
-						 	</div>
-
-<!-- 						<video id="my-video" class="video" autoplay muted loop>
-							  <source src="media/demo.mp4" type="video/mp4">
-							  <source src="media/demo.ogv" type="video/ogg">
-							  <source src="media/demo.webm" type="video/webm">
-							</video> --><!-- /video -->
-
-						</section>
-
-						<section class="about grid grid-pad">  
-						  	<div class="about-info col-1-1-about">
-						    	<h1 id="about-section">ABOUT</h1>
-						    	<h4>Bravo Dance Company</h4>
-						    		<p>Salsa dancing in Vancouver has become more prominent in Vancouver’s entertainment and nightlife in response to the fast growing salsa community in the lower mainland. All year round you will now find a salsa night for every night of the week! Join our upcoming Summer salsa dancing courses and get on the dance floor! Bravo Dance Company is one of the hottest and most distinguished schools for salsa dancing in Vancouver, Canada and around the world! Our teaching technique represents the best of L.A. styles not to mention precise footwork and styling for both lead and follow.</p>
-						 	</div>
-						</section>
-
-						<section class="instructor grid grid-pad">  
-							<div class="instructor-img col-1-2-instructor">
-						    	<img src="images/alfonso_1_cropped.jpg">
-						    </div>
-						  	<div class="instructor-info col-1-2-instructor">
-						    	<h1>instructor</h1>
-						    	<h4>Alfonso Caldera</h4>
-						    		<p>Alfonso Caldera is a W.S.F. World Salsa Champion & International Mayan Salsa Champion dancer. He is the director and choreographer of Bravo Dance Company (Salsa dancing in Vancouver service) and founder of BravoDanceCompany.com.</p>
-						    		<p>Through the years, Alfonso competed in some of the top Salsa competitions where he consistently placed in the top three, including the Miami World Salsa Federation competition, winning the championship trophy.</p>
-
-									<p>Alfonso has developed a unique style of Salsa dancing, LA-style Salsa which is prevalent in his teaching technique both in his Salsa dancing classes in Vancouver, along with his instructional videos.</p>
-						 	</div>
-						</section>
-
-
-						<section class="testimonials grid grid-pad">  
-							<div class="col-1-1-testimonials" id="enroll-section">
-						    		<p>This coming Summer season, add some sizzle to your dancing while making new friends and getting a great workout! Sign-up now for Alfonso’s Spring Salsa Course starting Jul.14.2015, taught by W.S.F. World Salsa Champion and International Mayan Champion Alfonso Caldera.</p>
-						    		<a href="classes.html" class="button-submit enroll-button">enroll now</a>
-
-						 	</div>
+                  <p>Alfonso has developed a unique style of Salsa dancing, LA-style Salsa which is prevalent in his teaching technique both in his Salsa dancing classes in Vancouver, along with his instructional videos.</p>
+              </div>
+            </section>
 
 
+            <section class="testimonials grid grid-pad">  
+              <div class="col-1-1-testimonials" id="enroll-section">
+                    <p>This coming Summer season, add some sizzle to your dancing while making new friends and getting a great workout! Sign-up now for Alfonso’s Spring Salsa Course starting Jul.14.2015, taught by W.S.F. World Salsa Champion and International Mayan Champion Alfonso Caldera.</p>
+                    <a href="classes.html" class="button-submit enroll-button">enroll now</a>
 
-
-						</section>
-
-						<section class="classes grid" id="classes-section">
-							<div class="col-1-1-classes"> 
-								<ul>
-									<li>
-										<figure class="classes">
-											<img src="images/salsa_group_600x600.jpg" alt="img01"/>
-											<figcaption>
-												<h2>BACHATA</h2>
-												<p>SPRING SEMESTER</p>
-												<a href="#">View</a>
-											</figcaption>			
-										</figure>
-									</li>
-																		<li>
-										<figure class="classes">
-											<img src="images/image_salsa_white_wardrobe_600x600.jpg" alt="img01"/>
-											<figcaption>
-												<h2>SALSA</h2>
-												<p>SPRING SEMESTER</p>
-												<a href="#">View</a>
-											</figcaption>			
-										</figure>
-									</li>
-								</ul>
-							</div>
-						</section>
-
-
-						<section class="events grid" id="events-section">
-							<div class="col-1-1-events"> 
-								<ul>
-
-									<li>
-										<figure class="events">
-											<img src="images/image_salsa_bw_600x600.jpg" alt="img01"/>
-											<figcaption>
-												<h2>Event Name</h2>
-												<p>05/July/2015</p>
-												<a href="#">View more</a>
-											</figcaption>			
-										</figure>
-									</li>
-									<li>
-										<figure class="events">
-											<img src="images/image_salsa_bw2_600x600.jpg" alt="img01"/>
-											<figcaption>
-												<h2>Event Name</h2>
-												<p>05/July/2015</p>
-												<a href="#">View more</a>
-											</figcaption>			
-										</figure>
-									</li>
-
-									<li>
-										<figure class="events">
-											<img src="images/bachata_suit_600x600.jpeg" alt="img01"/>
-											<figcaption>
-												<h2>Event Name</h2>
-												<p>05/July/2015</p>
-												<a href="#">View more</a>
-											</figcaption>			
-										</figure>
-									</li>
-									<li>
-										<figure class="events">
-											<img src="images/image_salsa_group_600x600.jpg" alt="img01"/>
-											<figcaption>
-												<h2>Event Name</h2>
-												<p>05/July/2015</p>
-												<a href="#">View more</a>
-											</figcaption>			
-										</figure>
-									</li>
-								</ul>
-							</div>
-						</section>
-
-						<section class="classes grid" id="classes-section">
-							<div class="col-1-1-classes"> 
-								<ul>
-									<li>
-										<figure class="classes">
-											<img src="images/salsa_group_600x600.jpg" alt="img01"/>
-											<figcaption>
-												<h2>BACHATA</h2>
-												<p>SPRING SEMESTER</p>
-												<a href="#">View</a>
-											</figcaption>			
-										</figure>
-									</li>
-																		<li>
-										<figure class="classes">
-											<img src="images/image_salsa_white_wardrobe_600x600.jpg" alt="img01"/>
-											<figcaption>
-												<h2>SALSA</h2>
-												<p>SPRING SEMESTER</p>
-												<a href="#">View</a>
-											</figcaption>			
-										</figure>
-									</li>
-								</ul>
-							</div>
-						</section>
-
-
-						<section class="contact-form grid grid-pad" id="contact-section"> 
-
-							<div class="col-1-1-contact-form">
-
-								<div class="col-1-6-contact-form">
-							    	<iframe class="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Scotia%20Dance%20Centre%2C%20677%20Davie%20St%2C%20Vancouver%2C%20BC%20V6B%202G6&key=AIzaSyD-dI_hK2EO2Ok2KQ9bGfQwsy-rI5cSsVQ"></iframe>
-							    </div>
-
-							    <div class="col-1-4-contact-form">
-							    	<h1>Contact Us</h1>
-							   		<h4>Let us know your thoughts</h4>
-						                <form method="post" action='#' id="form" class="form">
-						                <!-- <label for="form-name">Name:</label> -->
-						                <input type="text" name="form-name" id="form-name" class="input" placeholder="Name">
-						                <!-- <label for="form-email">Email:</label> -->
-						                <input type="text" name="form-email" id="form-email" class="input" placeholder="Email">
-						                <!-- <label for="form-message">Message:</label> -->
-						                <textarea id="form-message" class="textarea" placeholder="Your message here" ></textarea>
-						             </form>
-						             <a href="#" class="button-submit form">submit</a>
-						        </div>
-					        </div>
-					     </section>
-
-
-						 <section class="social-media grid grid-pad" id="social-section">  
-							<div class="col-1-1-social-media">
-					        	<h1>Connect with us</h1>
-						    	<h4>Follow us on social media</h4>
-						    	<ul>
-						    		<li><a href="http://www.facebook.com">Facebook</a></li>
-						    		<li><a href="http://www.twitter.com">Twitter</a></li>
-						    		<li><a href="http://www.instagram.com">Instagram</a></li>
-						    	</ul>
-						    </div>	
-						</section>
+              </div>
 
 
 
-						
-					</div>
 
-				<div class="sidebar" id="">
-					<ul>
-						<li><a class="button-nav-side" href="#">ABOUT</a></li>
-						<li><a class="button-nav-side" href="#">EVENTS</a></li>
-						<li><a class="button-nav-side" href="#">SCHEDULE</a></li>
-						<li><a class="button-nav-side" href="#">ABOUT</a></li>
-						<li><a class="button-nav-side" href="#">CONTACT</a></li>
-					</ul>
-				</div>
+            </section>
+
+            <section class="classes grid" id="classes-section">
+              <div class="col-1-1-classes"> 
+                <ul>
+                  <li>
+                    <figure class="classes">
+                      <img src="images/salsa_group_600x600.jpg" alt="img01"/>
+                      <figcaption>
+                        <h2>BACHATA</h2>
+                        <p>SPRING SEMESTER</p>
+                        <a href="#">View</a>
+                      </figcaption>     
+                    </figure>
+                  </li>
+                                    <li>
+                    <figure class="classes">
+                      <img src="images/image_salsa_white_wardrobe_600x600.jpg" alt="img01"/>
+                      <figcaption>
+                        <h2>SALSA</h2>
+                        <p>SPRING SEMESTER</p>
+                        <a href="#">View</a>
+                      </figcaption>     
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+            </section>
 
 
-	</div>
+            <section class="events grid" id="events-section">
+              <div class="col-1-1-events"> 
+                <ul>
+
+                  <li>
+                    <figure class="events">
+                      <img src="images/image_salsa_bw_600x600.jpg" alt="img01"/>
+                      <figcaption>
+                        <h2>Event Name</h2>
+                        <p>05/July/2015</p>
+                        <a href="#">View more</a>
+                      </figcaption>     
+                    </figure>
+                  </li>
+                  <li>
+                    <figure class="events">
+                      <img src="images/image_salsa_bw2_600x600.jpg" alt="img01"/>
+                      <figcaption>
+                        <h2>Event Name</h2>
+                        <p>05/July/2015</p>
+                        <a href="#">View more</a>
+                      </figcaption>     
+                    </figure>
+                  </li>
+
+                  <li>
+                    <figure class="events">
+                      <img src="images/bachata_suit_600x600.jpeg" alt="img01"/>
+                      <figcaption>
+                        <h2>Event Name</h2>
+                        <p>05/July/2015</p>
+                        <a href="#">View more</a>
+                      </figcaption>     
+                    </figure>
+                  </li>
+                  <li>
+                    <figure class="events">
+                      <img src="images/image_salsa_group_600x600.jpg" alt="img01"/>
+                      <figcaption>
+                        <h2>Event Name</h2>
+                        <p>05/July/2015</p>
+                        <a href="#">View more</a>
+                      </figcaption>     
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            <section class="classes grid" id="classes-section">
+              <div class="col-1-1-classes"> 
+                <ul>
+                  <li>
+                    <figure class="classes">
+                      <img src="images/salsa_group_600x600.jpg" alt="img01"/>
+                      <figcaption>
+                        <h2>BACHATA</h2>
+                        <p>SPRING SEMESTER</p>
+                        <a href="#">View</a>
+                      </figcaption>     
+                    </figure>
+                  </li>
+                                    <li>
+                    <figure class="classes">
+                      <img src="images/image_salsa_white_wardrobe_600x600.jpg" alt="img01"/>
+                      <figcaption>
+                        <h2>SALSA</h2>
+                        <p>SPRING SEMESTER</p>
+                        <a href="#">View</a>
+                      </figcaption>     
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+            </section>
 
 
-<!--   	<div class= "grid grid-pad">
+            <section class="contact-form grid grid-pad" id="contact-section"> 
 
-      <div class="col-1-4">
-        <h1>BRAVO STYLE GUIDE</h1>
-        <div class="grid grid-pad">
+              <div class="col-1-1-contact-form">
 
-          <nav>
-  
-            <div class="col-1-1">
-              <a class="button-nav-side" href="index.html">Back</a>
-            </div>
-        
-          </nav>
-        </div>
+                <div class="col-1-6-contact-form">
+                    <iframe class="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Scotia%20Dance%20Centre%2C%20677%20Davie%20St%2C%20Vancouver%2C%20BC%20V6B%202G6&key=AIzaSyD-dI_hK2EO2Ok2KQ9bGfQwsy-rI5cSsVQ"></iframe>
+                  </div>
 
-      </div>
+                  <div class="col-1-4-contact-form">
+                    <h1>Contact Us</h1>
+                    <h4>Let us know your thoughts</h4>
+                            <form method="post" action='#' id="form" class="form">
+                            <!-- <label for="form-name">Name:</label> -->
+                            <input type="text" name="form-name" id="form-name" class="input" placeholder="Name">
+                            <!-- <label for="form-email">Email:</label> -->
+                            <input type="text" name="form-email" id="form-email" class="input" placeholder="Email">
+                            <!-- <label for="form-message">Message:</label> -->
+                            <textarea id="form-message" class="textarea" placeholder="Your message here" ></textarea>
+                         </form>
+                         <a href="#" class="button-submit form">submit</a>
+                    </div>
+                  </div>
+               </section>
 
-      <div class="col-3-4">
-   
-           
-      </div>
-        
-  
-  
 
-    </div> -->
-    <script src="js/extra.js"></script>
-		<script src="js/sidebarEffects.js"></script>
-  </body>
+             <section class="social-media grid grid-pad" id="social-section">  
+              <div class="col-1-1-social-media">
+                    <h1>Connect with us</h1>
+                  <h4>Follow us on social media</h4>
+                  <ul>
+                    <li><a href="http://www.facebook.com">Facebook</a></li>
+                    <li><a href="http://www.twitter.com">Twitter</a></li>
+                    <li><a href="http://www.instagram.com">Instagram</a></li>
+                  </ul>
+                </div>  
+            </section>
+    </div>
+  </div>
+</div>
 
-  </html>
+</body>
+</html>
