@@ -43,7 +43,7 @@ section:not([id]) {
   
 }
 section{
-
+padding:0;
 }
 /* section h2{
   margin-top: 0;
