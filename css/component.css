@@ -1,0 +1,806 @@
+*,
+*:after,
+*::before {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body
+{
+	height: 100%;
+}
+
+/*.content {
+	overflow-y: scroll;
+	background-color: #f9f9f9;
+}
+
+.content,
+.content-inner {
+	position: relative;
+}
+
+.container {
+	position: relative;
+	overflow: hidden;
+}*/
+
+.toggle {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 20px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 1;
+  font-size: 30px;
+  color: black;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.toggle:hover { color: #29D4E8; }
+
+.sidebar {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: fixed;
+  top: 0px;
+  right: 0;
+  bottom: 0px;
+  left: -190px;
+  width: 120px;
+  padding: 30px;
+  background: #333;
+  color: white;
+  z-index: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  text-transform: uppercase;
+  opacity: .5;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.sidebar li:hover {
+  opacity: 1;
+  color: #29D4E8;
+}
+
+#sidebartoggler { display: none; }
+
+#sidebartoggler:checked + .page-wrapper .sidebar { left: 0px; }
+
+#sidebartoggler:checked + .page-wrapper .toggle { left: 200px; }
+
+#sidebartoggler:checked + .page-wrapper .page-content { padding-left: 200px; }
+
+
+.page-content {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: relative;
+  z-index: 0;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  color: #333;
+}
+
+.desktop-nav {
+
+
+}
+.desktop-nav ul {
+	display:inline-block;
+text-decoration: none;
+list-style: circle;
+	color: #f3efe0;
+	text-transform: uppercase;
+
+
+}
+.desktop-nav li a {
+	border: 2px solid #fff;
+	border-radius: 50%;
+	z-index: 1;
+	-webkit-transition: border-color 0.3s ease;
+	transition: border-color 0.3s ease;
+	opacity: 0;
+}
+
+.desktop-nav li {
+border: 2px solid #fff;
+	border-radius: 50%;
+	z-index: 1;
+	-webkit-transition: border-color 0.3s ease;
+	transition: border-color 0.3s ease;
+}
+
+.desktop-nav li a::after {
+	opacity: 1;
+}
+
+.desktop-nav li:hover {
+	color: red;
+}
+/* Individual effects */
+
+/* Effect 3: Push*/
+.effect-3.menu-open .pusher {
+	-webkit-transform: translate3d(250px, 0, 0);
+	transform: translate3d(250px, 0, 0);
+}
+
+.effect-3.menu {
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
+}
+
+.effect-3.menu-open .effect-3.menu {
+	visibility: visible;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.effect-3.menu::after {
+	display: none;
+}
+
+/* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
+.no-csstransforms3d .pusher,
+.no-js .pusher {
+	padding-left: 250px;
+}
+
+
+header {
+	padding-bottom: 1em;
+	z-index: 100;
+	top: 0;
+    transition: top 0.2s ease-in-out;
+      color: #fff;
+  
+  /*background-color: rgba(0,0,0,0.25);*/ 
+  background-color: black;
+  height: 6em;
+  width: 100%;
+  padding: 0 px;
+  position: fixed;
+	
+}
+
+.nav-up {
+    top: -100px;
+}
+
+section {
+  width: 100%;
+  max-width: none;
+  background-color: white;
+  padding: 0;
+  
+}
+
+.intro {
+	margin:0;
+  height: 100vh;
+  background-color: #f9f9f9;
+  color: black;
+}
+
+.intro-logo {
+	position: relative;
+	padding-top: 25vh;
+}
+
+.intro-logo h1 {
+
+	font-size: 4em;
+	margin-bottom: 0;
+	color: white;
+
+}
+
+.intro-logo h3 {
+	margin: 0;
+	color: white;
+
+}
+
+
+.col-1-1-intro {
+	z-index: 2;
+	width: 100%;
+	float: center;
+  	padding-left: 2em;
+  	text-align: center;
+}
+.col-1-1-about{
+	padding:5em;
+	width: 100%;
+  	float: center;
+  	text-align: center;
+
+}
+
+.col-1-1-about p{
+  color: black;
+  line-height: 1.5em;
+  text-align: center;
+  float:center;
+  width:auto;
+ }
+
+.col-1-2-instructor{
+	padding:5em;
+	width: 50%;
+	float:left;
+ 	text-align: left;
+	  margin-top: 0;
+	  color: black;
+	  line-height: 1.5em;
+ padding:5em;
+	 border-top: 1px solid #ccc;
+}
+
+ .col-1-2-instructor img{
+ 	width:100%;
+ }
+
+
+.col-1-2-instructor p{
+	float:left;
+ text-align: left;
+  color: black;
+  line-height: 1.5em;
+ }
+
+.col-1-1-testimonials{
+	background-color: black;
+	padding:5em;
+	width: 100%;
+	float:left;
+ 	text-align: center;
+	  margin-top: 0;
+	  color: white;
+	  line-height: 1.5em;
+ padding:2.5em;
+	 border-top: 1px solid #ccc;
+}
+
+#enroll-section h1{
+	color:white;
+}
+
+.enroll-button{
+	text-align: center;
+	position:relative;
+	float:none;
+}
+
+.col-1-1-social-media{
+	width:100%;
+	text-align: center;
+	padding: 2.5em 2.5em;
+	float: left;
+	background-color: black;
+}
+
+.col-1-1-social-media li{
+display:inline-block;
+text-decoration: none;
+list-style: none;
+color: white;
+}
+.col-1-1-social-media ul{
+text-align: center;
+padding: 0;
+}
+.col-1-1-social-media a{
+font-size: 0.75em;
+ font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding:1em 1em 0 1em;
+  color: white;
+}
+
+.col-1-1-social-media h1{
+  color: white;
+}
+
+.col-1-1-social-media a:hover{
+
+	background-color: white;
+	color:black;
+	padding:1em;
+
+}
+
+
+
+.col-1-4-contact-form {
+	display: block;
+width: 40%;
+float: left;
+margin: 0 0;
+
+
+}
+.col-1-6-contact-form {
+display: block;
+width: 60%;
+float: left;
+margin: 0 0;
+
+
+}
+
+.col-1-1-contact-form h1 h4{
+	text-align: center;
+}
+
+.col-1-1-contact-form{
+	padding:5em;
+
+
+}
+
+.col-1-1-contact-form a{
+
+    background: #ccc;
+    cursor: pointer;
+    border-top: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-bottom: solid 2px #777;
+    border-right: solid 2px #777;
+    padding: 5px 5px;   	
+ }
+
+.col-1-1-contact-form a:down {
+    background: #bbb;
+    border-top: solid 2px #777;
+    border-left: solid 2px #777;
+    border-bottom:solid 2px  #eaeaea;
+    border-right: solid 2px #eaeaea;
+    }
+}
+
+
+
+
+#form-message{
+	width:100%;
+}
+
+.map{
+	width:100%;
+	padding:0;
+	height:100%;
+}
+
+.form {
+	float: left;
+	width:auto;
+}
+
+.col-1-1-events {
+	margin: 0 auto;
+}
+
+
+.col-1-1-events  figure {
+	position: relative;
+	float: center;
+	overflow: hidden;
+	margin: 0;
+	max-height: 600px;
+	width: auto;
+	background: black;
+	text-align: center;
+	cursor: pointer;
+}
+
+.col-1-1-events  figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.col-1-1-events  figure figcaption {
+	padding: 0.1em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.col-1-1-events  figure figcaption::before,
+.col-1-1-events  figure figcaption::after {
+	pointer-events: none;
+}
+
+.col-1-1-events figure figcaption,
+.col-1-1-events  figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.col-1-1-events  figure figcaption > a {
+	z-index: 4;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.col-1-1-events  figure h2 {
+	word-spacing: -0.15em;
+	
+	font-weight: 300;
+	margin: none;
+}
+
+.col-1-1-events  figure h2 span {
+	font-weight: 800;
+}
+
+.col-1-1-events  figure h2,
+.col-1-1-events  figure p {
+	margin: 0;
+}
+
+.col-1-1-events  figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+
+
+.col-1-1-events li {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 400px;
+	margin: 0.4em 0.2em;
+
+}
+
+.col-1-1-events ul {
+	list-style: none;
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+
+/* used hover effects examples from: http://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/ */
+
+figure.events img {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.12);
+	transform: scale(1.12);
+}
+
+figure.events:hover img {
+	opacity: 0.5;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.events figcaption {
+	padding: 3em;
+}
+
+figure.events figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border: 1px solid #fff;
+	content: '';
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+figure.events figcaption::before,
+figure.events p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.events h2 {
+	padding: 20% 0 20px 0;
+}
+
+figure.events p {
+	margin: 0 auto;
+	max-width: 200px;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+figure.events:hover figcaption::before,
+figure.events:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+
+
+
+.col-1-1-classes {
+	width: 100%;
+	margin: 3em auto;
+	float: none;
+}
+
+
+.col-1-1-classes  figure {
+	position: relative;
+	float: center;
+	overflow: hidden;
+	margin: 0;
+	max-height: 600px;
+	width: auto;
+	background: black;
+	text-align: center;
+	cursor: pointer;
+}
+
+.col-1-1-classes  figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.col-1-1-classes  figure figcaption {
+	padding: 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.col-1-1-classes  figure figcaption::before,
+.col-1-1-classes  figure figcaption::after {
+	pointer-events: none;
+}
+
+.col-1-1-classes figure figcaption,
+.col-1-1-classes  figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.col-1-1-classes  figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.col-1-1-classes  figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+	margin: none;
+}
+
+.col-1-1-classes  figure h2 span {
+	font-weight: 800;
+}
+
+.col-1-1-classes  figure h2,
+.col-1-1-classes  figure p {
+	margin: 0;
+}
+
+.col-1-1-classes  figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+
+
+.col-1-1-classes li {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 360px;
+	margin: 0.2em;
+}
+
+.col-1-1-classes ul {
+	vertical-align: middle;
+	list-style: none;
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+
+/* used hover effects examples from: http://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/ */
+
+figure.classes img {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.12);
+	transform: scale(1.12);
+}
+
+figure.classes:hover img {
+	opacity: 0.5;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.classes figcaption {
+	padding: 3em;
+}
+
+figure.classes figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border: 1px solid #fff;
+	content: '';
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+figure.classes figcaption::before,
+figure.classes p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.classes h2 {
+	padding: 20% 0 20px 0;
+}
+
+figure.classes p {
+	margin: 0 auto;
+	max-width: 200px;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+figure.classes:hover figcaption::before,
+figure.classes:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+@media screen and (max-width: 50em) {
+	.content {
+		padding: 0 0px;
+		text-align: center;
+	}
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+}
+
+.checkout{
+	float:left;
+	padding-top: 3em;
+	padding-bottom: 0;
+}
+
+.checkout a{
+
+    background: none;
+    cursor: pointer;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    padding: none;   	
+	}
+
+.checkout p{
+		text-transform: uppercase;
+
+color: black;
+	font-size: 1em;
+ font-family: 'Montserrat', sans-serif;
+	 font-weight: 700;
+
+}
+
+
+.video {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.dance-type{
+		padding-top:2em;	
+}
+
+.dance-type label{
+
+color: black;
+	font-size: 0.75em;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.dance-type p{
+	text-transform: uppercase;
+
+color: black;
+	font-size: 1em;
+ font-family: 'Montserrat', sans-serif;
+	 font-weight: 700;
+
+}
+
+.days{
+	padding-top:2em;	
+}
+
+.days label{
+padding: 1em 2em em 0em;
+color: black;
+	font-size: 0.75em;
+ font-family: 'Montserrat', sans-serif;
+
+}
+.days p{
+	text-transform: uppercase;
+
+color: black;
+	font-size: 1em;
+ font-family: 'Montserrat', sans-serif;
+	 font-weight: 700;
+}
