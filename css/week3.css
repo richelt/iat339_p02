@@ -204,11 +204,34 @@ section {
   margin: 0 auto;
 }
 
+
+
 /*.col-1-1-img{
   width: 100%;
     text-align: center;
     height: 300px;
 }*/
+
+.col-1-1-img2 h1 {
+  margin-top: 4em;
+  color: white;
+}
+.col-1-1-img2 {
+  text-align: center;
+  height: 400px;
+  padding-top: -80px;
+  padding-bottom: 0px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(http://www.sfu.ca/~msmirnov/salsa.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
 
 .col-1-1-img h1 {
   margin-top: 4em;
@@ -260,12 +283,11 @@ section {
 .col-1-2-instructor{
   padding: 0em;
   width: 100%;
-height: 400px;
+height: 300px;
   text-align: center;
   margin: 0 auto;
     color: black;
     line-height: 1.5em;
- padding:5em;
 }
 
  .col-1-1-instructor img{
@@ -274,26 +296,29 @@ height: 400px;
 
 
 .col-1-2-instructor p{
-  float:left;
+float:left;
  text-align: left;
   color: black;
   line-height: 1.5em;
-  padding: 0 3em;
+  padding: 0 1em;
  }
 
 .col-1-1-testimonials{
   background-color: black;
-  padding:5em;
+  padding:6em;
   width: 100%;
   float:left;
   text-align: center;
     margin-top: 0;
     color: white;
     line-height: 1.5em;
- padding:2.5em;
    border-top: 1px solid #ccc;
 }
-
+.col-1-1-testimonials .enroll-btn{
+    display: block;
+  width: 150px;
+  margin: 0 auto;
+}
 .enroll-button{
   text-align: center;
   position:relative;
@@ -408,7 +433,9 @@ margin: 0 0;
 }
 
 .col-1-1-events {
-  margin: 0 auto;
+  width: 100%;
+
+  margin: 0;
 }
 
 
@@ -417,7 +444,7 @@ margin: 0 0;
   float: center;
   overflow: hidden;
   margin: 0;
-  max-height: 600px;
+  max-height: 400px;
   width: auto;
   background: black;
   text-align: center;
@@ -491,7 +518,7 @@ margin: 0 0;
 .col-1-1-events li {
   display: inline-block;
   vertical-align: top;
-  max-width: 400px;
+  max-width: 300px;
   margin: 0.4em 0.2em;
 
 }
@@ -562,26 +589,32 @@ figure.events:hover p {
 
 
 
-.col-1-1-classes {
+.classes-list {
   width: 100%;
-  margin: 3em auto;
+  margin:0;
   float: none;
+  padding: 0;
+  list-style: none;
+
 }
 
 
-.col-1-1-classes  figure {
+
+.classes-list   figure {
   position: relative;
-  float: center;
+  float: left;
+  display: block;
   overflow: hidden;
   margin: 0;
-  max-height: 600px;
+  max-height: auto;
   width: auto;
+  padding: 0;
   background: black;
   text-align: center;
   cursor: pointer;
 }
 
-.col-1-1-classes  figure img {
+.classes-list   figure img {
   position: relative;
   display: block;
   min-height: 100%;
@@ -589,7 +622,7 @@ figure.events:hover p {
   opacity: 0.8;
 }
 
-.col-1-1-classes  figure figcaption {
+.classes-list   figure figcaption {
   padding: 0;
   color: #fff;
   text-transform: uppercase;
@@ -598,13 +631,13 @@ figure.events:hover p {
   backface-visibility: hidden;
 }
 
-.col-1-1-classes  figure figcaption::before,
-.col-1-1-classes  figure figcaption::after {
+.classes-list   figure figcaption::before,
+.classes-list   figure figcaption::after {
   pointer-events: none;
 }
 
-.col-1-1-classes figure figcaption,
-.col-1-1-classes  figure figcaption > a {
+.classes-list  figure figcaption,
+.classes-list   figure figcaption > a {
   position: absolute;
   top: 0;
   left: 0;
@@ -614,7 +647,7 @@ figure.events:hover p {
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.col-1-1-classes  figure figcaption > a {
+.classes-list  figure figcaption > a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
@@ -622,40 +655,43 @@ figure.events:hover p {
   opacity: 0;
 }
 
-.col-1-1-classes  figure h2 {
+.classes-list   figure h2 {
   word-spacing: -0.15em;
   font-weight: 300;
   margin: none;
 }
 
-.col-1-1-classes  figure h2 span {
+.classes -list  figure h2 span {
   font-weight: 800;
 }
 
-.col-1-1-classes  figure h2,
-.col-1-1-classes  figure p {
+.classes-list   figure h2,
+.classes-list   figure p {
   margin: 0;
 }
 
-.col-1-1-classes  figure p {
+.classes-list   figure p {
   letter-spacing: 1px;
   font-size: 68.5%;
 }
 
 
 
-.col-1-1-classes li {
+.classes-list  li {
+  position: relative;
+  float: left;
+  overflow: hidden;
   display: inline-block;
   vertical-align: top;
-  max-width: 360px;
-  margin: 0.2em;
+  max-width: 50%;
+  margin: 0;
 }
 
-.col-1-1-classes ul {
-  vertical-align: middle;
+.classes -list ul {
+
   list-style: none;
   list-style-type: none;
-  margin: 0 auto;
+  margin: 0;
 }
 
 
