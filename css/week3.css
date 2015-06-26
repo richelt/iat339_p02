@@ -225,7 +225,6 @@ section {
   position: relative;
   width: 100%;
   background-image: url(http://www.sfu.ca/~msmirnov/salsa.jpg);
-  background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -239,18 +238,10 @@ section {
 }
 .col-1-1-img {
   text-align: center;
-  height: 400px;
-  padding-top: -80px;
-  padding-bottom: 0px;
+  height: 475px;
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(http://www.sfu.ca/~msmirnov/alfonso_1.jpg);
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
 }
 .col-1-1-intro {
   z-index: 2;
