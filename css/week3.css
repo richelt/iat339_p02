@@ -319,6 +319,19 @@ float:left;
   width: 150px;
   margin: 0 auto;
 }
+
+.col-1-1-block {
+
+    background-color: black;
+  padding:6em;
+  width: 100%;
+  float:left;
+  text-align: center;
+    margin-top: 0;
+    color: white;
+    line-height: 1.5em;
+   border-top: 1px solid #ccc;
+}
 .enroll-button{
   text-align: center;
   position:relative;
@@ -365,7 +378,9 @@ font-size: 0.75em;
 
 }
 
-
+.contact-form {
+  margin-top: 5em;
+}
 
 .col-1-4-contact-form {
   display: block;
