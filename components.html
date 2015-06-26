@@ -15,9 +15,16 @@
   </head>
 
   <body>
-
   	<div id="container" class="container">
+  			<!-- content push wrapper -->
+			<div class="pusher">
+				<!-- 	
+					got this example from codedrops article on side menus, 
+					mostly just used the way they created containers (main containter, pusher and inner container) and as well as the java script for side bar 
+					push out effect.
 
+					http://tympanus.net/Development/SidebarTransitions/
+				-->
 				<nav class="menu effect-3" id="menu-3">
 					<h1 class="">BRAVO LOGO</h1>
 					<ul>
@@ -32,8 +39,8 @@
 				<div class="content"><!-- this is the wrapper for the content -->
 
 					<div class="content-inner">
-					<button effect="effect-3" id="sidebartoggler" class="button-nav">Menu</button>
 						<header id="trigger-effects" class="nav-down">
+							<button effect="effect-3" class="button-nav">Menu</button>
 
 						<a class="button-nav-side" href="#about-section">about</a>
 						<a class="button-nav-side" href="#enroll-section">enroll</a>
@@ -68,7 +75,7 @@
 						 	</div>
 						</section>
 
-						<section class="instructor grid">  
+						<section class="instructor grid grid-pad">  
 							<div class="instructor-img col-1-2-instructor">
 						    	<img src="images/alfonso_1_cropped.jpg">
 						    </div>
@@ -89,6 +96,7 @@
 						    		<a href="classes.html" class="button-submit enroll-button">enroll now</a>
 
 						 	</div>
+
 
 
 
@@ -120,7 +128,6 @@
 								</ul>
 							</div>
 						</section>
-
 
 
 						<section class="events grid" id="events-section">
@@ -165,6 +172,33 @@
 												<h2>Event Name</h2>
 												<p>05/July/2015</p>
 												<a href="#">View more</a>
+											</figcaption>			
+										</figure>
+									</li>
+								</ul>
+							</div>
+						</section>
+
+						<section class="classes grid" id="classes-section">
+							<div class="col-1-1-classes"> 
+								<ul>
+									<li>
+										<figure class="classes">
+											<img src="images/salsa_group_600x600.jpg" alt="img01"/>
+											<figcaption>
+												<h2>BACHATA</h2>
+												<p>SPRING SEMESTER</p>
+												<a href="#">View</a>
+											</figcaption>			
+										</figure>
+									</li>
+																		<li>
+										<figure class="classes">
+											<img src="images/image_salsa_white_wardrobe_600x600.jpg" alt="img01"/>
+											<figcaption>
+												<h2>SALSA</h2>
+												<p>SPRING SEMESTER</p>
+												<a href="#">View</a>
 											</figcaption>			
 										</figure>
 									</li>
@@ -244,7 +278,8 @@
     </div> -->
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="js/extra.js"></script>
-	<script src="js/sidebarEffects.js"></script>
+    	<script src="js/classie.js"></script>
+		<script src="js/sidebarEffects.js"></script>
   </body>
 
   </html>
