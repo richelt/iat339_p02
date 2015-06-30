@@ -429,7 +429,6 @@ margin: 0 0;
   margin: 0;
 }
 
-.col-1-1
 
 .col-1-1-events  figure {
   position: relative;
@@ -582,7 +581,167 @@ figure.events:hover p {
 
 
 
-.
+.classes-list {
+  width: 100%;
+  margin:0;
+  float: none;
+  padding: 0;
+  list-style: none;
+
+}
+
+
+
+.classes-list   figure {
+  position: relative;
+  float: left;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  max-height: auto;
+  width: auto;
+  padding: 0;
+  background: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.classes-list   figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.classes-list   figure figcaption {
+  padding: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.classes-list   figure figcaption::before,
+.classes-list   figure figcaption::after {
+  pointer-events: none;
+}
+
+.classes-list  figure figcaption,
+.classes-list   figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.classes-list  figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.classes-list   figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+  margin: none;
+}
+
+.classes -list  figure h2 span {
+  font-weight: 800;
+}
+
+.classes-list   figure h2,
+.classes-list   figure p {
+  margin: 0;
+}
+
+.classes-list   figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+
+
+.classes-list  li {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 50%;
+  margin: 0;
+}
+
+.classes -list ul {
+
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+}
+
+
+/* used hover effects examples from: http://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/ */
+
+figure.classes img {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+}
+
+figure.classes:hover img {
+  opacity: 0.5;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+figure.classes figcaption {
+  padding: 3em;
+}
+
+figure.classes figcaption::before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  border: 1px solid #fff;
+  content: '';
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+figure.classes figcaption::before,
+figure.classes p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.classes h2 {
+  padding: 20% 0 20px 0;
+}
+
+figure.classes p {
+  margin: 0 auto;
+  max-width: 200px;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+figure.classes:hover figcaption::before,
+figure.classes:hover p {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
 
 @media screen and (max-width: 50em) {
   .content {
