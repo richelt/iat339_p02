@@ -168,7 +168,6 @@ section {
 
 .intro {
   margin:0;
-  height: 100vh;
 
   background-color: #f9f9f9;
   color: black;
@@ -250,7 +249,8 @@ section {
   padding: 2em 20%;
  }
 .col-1-1-about h1 {
-  margin-top: 0em;
+  margin-top: 2em;
+
 }
 .col-1-2-instructor{
   padding: 0em;
@@ -272,7 +272,7 @@ float:left;
  text-align: left;
   color: black;
   line-height: 1.5em;
-  padding: 0 1em;
+  padding: 0em 20% 0em 20%;
  }
 
 .col-1-1-testimonials{
@@ -334,11 +334,11 @@ padding: 0;
 }
 .col-1-1-social-media a{
 font-size: 0.75em;
- font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
-  padding:1em 1em 0 1em;
+  padding:1em 1em 0em 1em;
   color: white;
 }
 
@@ -451,6 +451,9 @@ margin: 0 0;
 }
 
 .col-1-1-events  figure figcaption {
+
+font-family: 'Bree Serif', serif;
+font-weight: 100;
   padding: 0.1em;
   color: #fff;
   text-transform: uppercase;
@@ -576,6 +579,14 @@ figure.events:hover p {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+
+#events-section{
+  text-align: center;
+}
+#events-section h1{
+  text-align: center;
+  margin-top:2em;
 }
 
 
