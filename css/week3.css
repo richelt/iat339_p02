@@ -456,7 +456,6 @@ font-family: 'Bree Serif', serif;
 font-weight: 100;
   padding: 0.1em;
   color: #fff;
-  text-transform: uppercase;
   font-size: 1.25em;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -469,6 +468,7 @@ font-weight: 100;
 
 .col-1-1-events figure figcaption,
 .col-1-1-events  figure figcaption > a {
+
   position: absolute;
   top: 0;
   left: 0;
