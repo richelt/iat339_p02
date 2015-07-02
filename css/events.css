@@ -1,0 +1,165 @@
+.col-1-1-events {
+  width: 100%;
+
+  margin: 0;
+}
+
+
+.col-1-1-events  figure {
+  position: relative;
+  float: center;
+  overflow: hidden;
+  margin: 0;
+  max-height: 400px;
+  width: auto;
+  background: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.col-1-1-events  figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.col-1-1-events  figure figcaption {
+
+font-family: 'Bree Serif', serif;
+font-weight: 100;
+  padding: 0.1em;
+  color: #fff;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.col-1-1-events  figure figcaption::before,
+.col-1-1-events  figure figcaption::after {
+  pointer-events: none;
+}
+
+.col-1-1-events figure figcaption,
+.col-1-1-events  figure figcaption > a {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.col-1-1-events  figure figcaption > a {
+  z-index: 4;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.col-1-1-events  figure h2 {
+  word-spacing: -0.15em;
+  
+  font-weight: 300;
+  margin: none;
+}
+
+.col-1-1-events  figure h2 span {
+  font-weight: 800;
+}
+
+.col-1-1-events  figure h2,
+.col-1-1-events  figure p {
+  margin: 0;
+}
+
+.col-1-1-events  figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+
+
+.col-1-1-events li {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 300px;
+  margin: 0.4em 0.2em;
+
+}
+
+.col-1-1-events ul {
+  list-style: none;
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/* used hover effects examples from: http://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/ */
+
+figure.events img {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+}
+
+figure.events:hover img {
+  opacity: 0.5;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+figure.events figcaption {
+  padding: 3em;
+}
+
+figure.events figcaption::before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  border: 1px solid #fff;
+  content: '';
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+figure.events figcaption::before,
+figure.events p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.events h2 {
+  padding: 20% 0 20px 0;
+}
+
+figure.events p {
+  margin: 0 auto;
+  max-width: 200px;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+figure.events:hover figcaption::before,
+figure.events:hover p {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+#events-section{
+  text-align: center;
+}
+#events-section h1{
+  text-align: center;
+  margin-top:2em;
+}
