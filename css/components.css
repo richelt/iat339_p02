@@ -73,18 +73,23 @@ body
   padding:0px;
   background: black;
   color: white;
-  z-index: 10; 
-}
-  .sidebar ul {
-      margin: 0 auto;
+  z-index: 10;
   display: inline-block;
   text-align: center;
 
-    list-style-type: none;
 
-    padding: 0; 
+}
+  .sidebar ul {
+
+    list-style-type: none;
+          margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+
+    padding: 5em; 
   }
   .sidebar li {
+
     text-transform: uppercase;
     opacity: .5;
     cursor: pointer;
@@ -102,9 +107,9 @@ body
   #sidebartoggler:checked + .page-wrapper .sidebar {
     left: 0px; }
   #sidebartoggler:checked + .page-wrapper .toggle {
-    left: 190px; }
+    left: 0px; }
   #sidebartoggler:checked + .page-wrapper .page-content {
-    padding-left: 200px; }
+    padding-left: 0; }
 .desktop-nav{
   display: inline-block;
   float: middle;

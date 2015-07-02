@@ -1,12 +1,26 @@
-  var test= true;
+// $('#sidebartoggler').click(function() {
+//   if ($(this).is(':checked')) {
+//     $(this).siblings('label').html('X');
+//   } else {
     
-    $("#open").click(function () {
-        if(test){
-        $(this).parent().animate({left:'0px'}, {queue: false, duration: 500});
-    }
-                        else{
-        $(this).parent().animate({left:'-50%'}, {queue: false, duration: 500});                
-        }      
-       test= !test; 
-   
+//     $(this).siblings('label').html("MENU");
+//   }
+
+$('.button-nav-side').click(function(){
+	if($('#sidebartoggler').is(':checked')){
+		$('#sidebartoggler').prop('checked', false); 
+	}
+
+	else {
+		$('#sidebartoggler').prop('checked', true);
+	}
 });
+
+
+function change(id){
+ if ($('#'+id).is(':checked')) {
+    $('#'+id +"label").html('X');
+  }else{
+    $('#'+id+ "label").html('MENU');
+  }
+};
