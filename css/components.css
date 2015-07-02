@@ -68,8 +68,8 @@ body
   top: 0px;
   right: 0;
   bottom: 0px;
-  left: -200px;
-  width: 200px;
+  left: -100%;
+  width: 100%;
   padding:0px;
   background: black;
   color: white;
@@ -108,7 +108,7 @@ body
   visibility: visible;
 }
 
-@media screen and (max-width: 25em) {
+@media screen and (max-width: 37.5em) {
   header{
     height: 5em;
     padding-top: 2em;
@@ -129,17 +129,6 @@ body
 
 }
 
-@media screen and (max-width: 37.5em) {
-  header{
-  padding-bottom: 0em;
-  }
-.col-1-2-instructor {
-  width: 100%;
-}
-
-
-
-}
 
 
 header {
@@ -219,7 +208,6 @@ section {
     text-align: center;
     height: 300px;
 }*/
-
 
 
 .block-img h1 {
@@ -431,7 +419,7 @@ margin: 0 0;
 .form {
   float: left;
   width:auto;
-  
+
 }
 
 

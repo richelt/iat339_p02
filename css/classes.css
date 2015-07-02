@@ -1,32 +1,27 @@
-#slideout {
-    background: #666;
-    position: relative;
-    width: 100%;
-    height: auto;
-
-    left:-50%;
-}
-   
-
-#open {
-    float: right;
-    height: auto;
-    width: 50%;
-    background: #ff0000;
-}
-
-#salsa-class {
-    float:left;
-}
-
 
 
 .col-1-1-classes {
-  display: inline-block;
-  float: left;
+  width: 100%;
+  display: block;
+  float: right;
+  background-color: black;
 }
 
+.salsa-info{
 
+
+}
+.col-1-1-classes img {
+    width: 100%;
+    
+}
+
+.class-name {
+  float: right;
+  position: relative;
+  height: auto;
+
+}
 
 .classes-list {
   width: 100%;
