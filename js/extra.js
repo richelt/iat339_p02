@@ -1,18 +1,12 @@
-// $(function(){
-//     var lastScrollTop = 0, delta = 5;
-//     $(window).scroll(function(event){
-//        var st = $(this).scrollTop();
-       
-//        if(Math.abs(lastScrollTop - st) <= delta)
-//           return;
-       
-//        if (st > lastScrollTop){
-//          // Scroll down
-//          $('header').addClass('nav-hide');
-//        } else {
-//          // Scroll up
-//          $('header').removeClass('nav-hide');
-//        }
-//        lastScrollTop = st;
-//     });
-// });
+  var test= true;
+    
+    $("#open").click(function () {
+        if(test){
+        $(this).parent().animate({left:'0px'}, {queue: false, duration: 500});
+    }
+                        else{
+        $(this).parent().animate({left:'-50%'}, {queue: false, duration: 500});                
+        }      
+       test= !test; 
+   
+});
