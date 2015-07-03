@@ -547,7 +547,6 @@ padding-bottom: 1em;
   padding: 1em 1.5em;
   vertical-align: middle;
 
-  text-transform: uppercase;
   color: white;
   border: 2px solid white;
   font-family: 'Josefin Sans', sans-serif;
@@ -600,8 +599,6 @@ padding-bottom: 1em;
   text-align: left;
   padding: 1em 1.5em;
   vertical-align: middle;
-
-  text-transform: uppercase;
   color: white;
   border-bottom: 1px solid black;
   border-left:none;
@@ -673,7 +670,7 @@ padding-bottom: 1em;
   min-height: 100px;
   min-width: 80%%;
 
-        font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 200;
   font-size: 1rem;
   font-weight: 200;
@@ -682,8 +679,6 @@ padding-bottom: 1em;
   min-width: 340px;
 
   background-color: white;
-
-  text-transform: uppercase;
   letter-spacing: 2px;
   color: black;
   border-width: 1px;
@@ -714,7 +709,10 @@ input[type="checkbox"] {
     display:none;
 }
 input[type="checkbox"] + label{
-        font-family: "Lato", sans-serif;
+
+   text-transform: uppercase;
+
+   font-family: 'Josefin Sans', sans-serif;
   font-weight: 200;
   font-size: 1rem;
    display:inline-block;
@@ -723,6 +721,7 @@ input[type="checkbox"] + label{
     text-align: center;
     padding: 1em;
     background-color: white;
+    color: black;
     cursor:pointer;
      -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -737,7 +736,8 @@ input[type="checkbox"] + label{
 
 input[type="checkbox"]:checked + label {
     display:inline-block;
-      font-family: 'Lato', sans-serif;
+ font-family: 'Josefin Sans', sans-serif;
+ text-transform: uppercase;
   font-weight: 200;
   font-size: 1rem;
     width: auto;
