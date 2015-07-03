@@ -9,6 +9,7 @@ html,
 body
 {
   height: 100%;
+  display: none;
 }
 .page-content {
   -webkit-transition: all 0.5s ease-in;
@@ -27,6 +28,7 @@ body
   position: relative;
   overflow: hidden;
 }
+
 
 .toggle {
   visibility: hidden; 
@@ -68,19 +70,28 @@ body
   top: 0px;
   right: 0;
   bottom: 0px;
-  left: -200px;
-  width: 200px;
+  left: -100%;
+  width: 100%;
   padding:0px;
   background: black;
   color: white;
-  z-index: 1; 
+  z-index: 10;
+  display: inline-block;
+  text-align: center;
+
+
 }
   .sidebar ul {
+
     list-style-type: none;
-    margin: 3em 2em 3em 3em;
-    padding: 0; 
+          margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+
+    padding: 5em; 
   }
   .sidebar li {
+
     text-transform: uppercase;
     opacity: .5;
     cursor: pointer;
@@ -98,9 +109,9 @@ body
   #sidebartoggler:checked + .page-wrapper .sidebar {
     left: 0px; }
   #sidebartoggler:checked + .page-wrapper .toggle {
-    left: 190px; }
+    left: 0px; }
   #sidebartoggler:checked + .page-wrapper .page-content {
-    padding-left: 200px; }
+    padding-left: 0; }
 .desktop-nav{
   display: inline-block;
   float: middle;
@@ -108,10 +119,11 @@ body
   visibility: visible;
 }
 
-@media screen and (max-width: 25em) {
+@media screen and (max-width: 37.5em) {
   header{
     height: 5em;
     padding-top: 2em;
+    text-align: center;
   }
   .desktop-nav {
     visibility: hidden;
@@ -129,22 +141,9 @@ body
 
 }
 
-@media screen and (max-width: 37.5em) {
-  header{
-  padding-bottom: 0em;
-  }
-.col-1-2-instructor {
-  width: 100%;
-}
-
-
-
-}
-
-
 header {
   display: inline-block;
-  float: center;
+  text-align: right;
   margin: 0 auto;
   padding-top: 2em;
   z-index: 100;

@@ -1,18 +1,38 @@
-// $(function(){
-//     var lastScrollTop = 0, delta = 5;
-//     $(window).scroll(function(event){
-//        var st = $(this).scrollTop();
-       
-//        if(Math.abs(lastScrollTop - st) <= delta)
-//           return;
-       
-//        if (st > lastScrollTop){
-//          // Scroll down
-//          $('header').addClass('nav-hide');
-//        } else {
-//          // Scroll up
-//          $('header').removeClass('nav-hide');
-//        }
-//        lastScrollTop = st;
-//     });
-// });
+$('.button-nav-side').click(function(){
+	if($('#sidebartoggler').is(':checked')){
+		$('#sidebartoggler').prop('checked', false); 
+	}
+
+	else {
+		$('#sidebartoggler').prop('checked', true);
+	}
+});
+
+
+function change(id){
+ if ($('#'+id).is(':checked')) {
+    $('#'+id +"label").html('X');
+  }else{
+    $('#'+id+ "label").html('MENU');
+  }
+};
+
+
+
+$(document).ready(function() {
+  
+  $("body").css("display", "none");
+
+    $("body").fadeIn(2000);
+    
+  $("a.transition").click(function(event){
+    event.preventDefault();
+    linkLocation = this.href;
+    $("body").fadeOut(1000, redirectPage);    
+  });
+    
+  function redirectPage() {
+    window.location = linkLocation;
+  }
+  
+});
