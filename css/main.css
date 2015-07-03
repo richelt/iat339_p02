@@ -120,8 +120,7 @@ div code {
 }
 
 .col-1-4 {
-  width: 30%;
-  position: fixed;
+
 }
 
 .mon {
@@ -214,6 +213,21 @@ div code {
   width: 70%;
   padding-left: 2em;
 
+}
+
+.col-3-4 h1 {
+color:white;
+padding-bottom: 1em;
+}
+
+.col-1-2 h2 {
+  margin: 0;
+  padding-bottom: 0.3em;
+  padding-top: 0;
+  font-size: 0.85rem;
+  color: white;
+  padding-bottom: 0.5em;
+  letter-spacing: 0em;
 }
 .col-1-5 {
   width: 50%;
@@ -750,7 +764,6 @@ padding-bottom: 1rem;
 .col-1-2 h2{
 font-family: 'Bree Serif', serif;
 font-weight: 100;
-  letter-spacing: 2px;
   margin-top: 0;
   font-size: 2rem; 
   
@@ -764,6 +777,13 @@ font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 0em;
   padding-bottom: 1rem;
+
+
+}
+
+.col-1-2 h4 {
+  color: white;
+  padding-top: 1rem;
 
 
 }
