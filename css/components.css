@@ -259,7 +259,7 @@ section {
   padding: 2em 20%;
  }
 .col-1-1-about h1 {
-  margin-top: 2em;
+  padding-top: 1em;
 
 }
 .col-1-2-instructor{
@@ -364,7 +364,9 @@ font-size: 0.75em;
 }
 
 .contact-form {
-  margin-top: 5em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+
 }
 
 .col-1-4-contact-form {
@@ -424,7 +426,6 @@ margin: 0 0;
 .map{
   width:100%;
   padding:0;
-  height:100%;
 }
 
 .form {
@@ -559,7 +560,6 @@ figure.events figcaption::before {
   right: 30px;
   bottom: 30px;
   left: 30px;
-  border: 1px solid #fff;
   content: '';
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -595,7 +595,6 @@ figure.events:hover h3 {
 }
 #events-section h1{
   text-align: center;
-  margin-top:2em;
 }
 
 
@@ -739,7 +738,6 @@ figure.classes figcaption::before {
   right: 30px;
   bottom: 30px;
   left: 30px;
-  border: 1px solid #fff;
   content: '';
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
