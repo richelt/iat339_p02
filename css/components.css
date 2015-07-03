@@ -31,7 +31,8 @@ background-color: black;
 
 
 .toggle {
-  visibility: hidden; 
+  visibility: hidden;
+  display: none; 
   z-index: 1;
   cursor: pointer;
 
@@ -124,6 +125,9 @@ background-color: black;
     height: 5em;
     padding-top: 2em;
   }
+  .toggle {
+    display: inline-block;
+  }
   .desktop-nav {
     visibility: hidden;
   }
@@ -142,6 +146,7 @@ background-color: black;
   }
 .intro .video-img{
   visibility: visible;
+  display: block;
 }
 .col-1-2-instructor {
   width: 100%;
@@ -196,6 +201,7 @@ section {
   height: auto;
   margin: 0;
   padding: 0;
+  display: none;
 }
 
 
