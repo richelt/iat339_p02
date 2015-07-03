@@ -284,7 +284,10 @@ input::-moz-focus-inner {
  * the UA stylesheet.
  */
 input {
+  border-width: 1px;
+  border: 1px;
   line-height: normal;
+  font-family: "Lato", sans-serif;
 }
 
 /**

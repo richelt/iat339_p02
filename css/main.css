@@ -550,8 +550,8 @@ padding-bottom: 1em;
   text-transform: uppercase;
   color: white;
   border: 2px solid white;
-    
-  font-family: "Lato", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
   font-weight: bold;
   font-size: 1rem; 
   letter-spacing: 2px;
@@ -603,10 +603,14 @@ padding-bottom: 1em;
 
   text-transform: uppercase;
   color: white;
-  border: 2px solid black;
+  border-bottom: 1px solid black;
+  border-left:none;
+  border-right: none;
+  border-top: none;
+ 
     
-  font-family: "Lato", sans-serif;
-  font-weight: lighter;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
   font-size: 1rem; 
   letter-spacing: 2px;
   
@@ -635,12 +639,12 @@ padding-bottom: 1em;
 .form .input:focus{
   color:  #040c17;
   border-color: black;
-  border-width: 2px;
+  border-width: 1px;
 
 }
 .form .input:focus{
   color: #111;
-  border-color: orange;
+  border-color: grey;
   color: black;
  
 }
@@ -648,17 +652,19 @@ padding-bottom: 1em;
 .form .input{
   margin-top: 1em;
   margin-right: 1em;
-    padding: 1em 1.5em;
+  padding: 1em;
     
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
     background-color: white;
 
-     border-color: black 2px;
+  border-left:none;
+  border-right: none;
+  border-top: none;
+     border-color: black 1px;
 
       color: black;
-
-    font-weight: 200;
-    
-    font-size: 1rem; 
     letter-spacing: 2px;
 }
 
@@ -666,17 +672,21 @@ padding-bottom: 1em;
   margin-top: 1em;
   min-height: 100px;
   min-width: 80%%;
-  font-family: "Lato", sans-serif;
+
+        font-family: 'Josefin Sans', sans-serif;
   font-weight: 200;
   font-size: 1rem;
-  padding: 20px;
+  font-weight: 200;
+  font-size: 1rem;
+  padding: 1em;
+  min-width: 340px;
 
   background-color: white;
 
   text-transform: uppercase;
   letter-spacing: 2px;
   color: black;
-  border-width: 2px;
+  border-width: 1px;
   text-align: left;
 
   border-color: black;
@@ -696,10 +706,57 @@ padding-bottom: 1em;
 .form textarea:focus{
 
   color: #111;
-  border-color: orange;
-  border-width: 2px;
+  border-color: grey;
+  border-width: 1px;
 }
 
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label{
+        font-family: "Lato", sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+   display:inline-block;
+    width: auto;
+    border: 2px solid;
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+    cursor:pointer;
+     -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+    
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+input[type="checkbox"]:checked + label {
+    display:inline-block;
+      font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+    width: auto;
+    border: 2px solid;
+    text-align: center;
+    padding: 1em;
+    background-color: black;
+    color: white;
+     -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+    
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+ 
+}
 /* 
   TEXT ELEMENTS -------------------
 */
