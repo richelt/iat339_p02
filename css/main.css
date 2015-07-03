@@ -665,6 +665,25 @@ padding-bottom: 1em;
     letter-spacing: 2px;
 }
 
+.form .guide-input{
+  margin-top: 1em;
+  margin-right: 1em;
+  padding: 1em;
+    
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+    background-color: black;
+
+  border-left:none;
+  border-right: none;
+  border-top: none;
+     border-color: white 1px;
+     border-bottom: white 1px solid;
+      color: white;
+    letter-spacing: 2px;
+}
+
 .form textarea{
   margin-top: 1em;
   min-height: 100px;
