@@ -269,7 +269,6 @@ height: 300px;
   text-align: center;
   margin: 0 auto;
     color: black;
-    line-height: 1.5em;
 }
 
  .col-1-1-instructor img{
@@ -567,7 +566,7 @@ figure.events figcaption::before {
 }
 
 figure.events figcaption::before,
-figure.events p {
+figure.events h3 {
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
@@ -577,7 +576,7 @@ figure.events h2 {
   padding: 20% 0 20px 0;
 }
 
-figure.events p {
+figure.events h3 {
   margin: 0 auto;
   max-width: 200px;
   -webkit-transform: scale(1.5);
@@ -585,7 +584,7 @@ figure.events p {
 }
 
 figure.events:hover figcaption::before,
-figure.events:hover p {
+figure.events:hover h3 {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -638,8 +637,15 @@ figure.events:hover p {
 .classes-list   figure figcaption {
   padding: 0;
   color: #fff;
-  text-transform: uppercase;
-  font-size: 1.25em;
+  font-size: 1em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.classes-list   figure figcaption {
+  padding: 0;
+  color: #fff;
+  font-size: 1em;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -740,7 +746,7 @@ figure.classes figcaption::before {
 }
 
 figure.classes figcaption::before,
-figure.classes p {
+figure.classes h3 {
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
@@ -750,7 +756,7 @@ figure.classes h2 {
   padding: 20% 0 20px 0;
 }
 
-figure.classes p {
+figure.classes h3 {
   margin: 0 auto;
   max-width: 200px;
   -webkit-transform: scale(1.5);
@@ -758,7 +764,7 @@ figure.classes p {
 }
 
 figure.classes:hover figcaption::before,
-figure.classes:hover p {
+figure.classes:hover h3 {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
