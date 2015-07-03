@@ -392,27 +392,22 @@ margin: 0 0;
 
 .col-1-1-contact-form{
   padding:5em;
+    border-top: solid 1px #d3d3d3;
 
 
 }
 
 .col-1-1-contact-form a{
 
-    background: #ccc;
     cursor: pointer;
-    border-top: solid 2px #eaeaea;
-    border-left: solid 2px #eaeaea;
-    border-bottom: solid 2px #777;
-    border-right: solid 2px #777;
-    padding: 5px 5px;     
+    border: solid 2px #8baaad;
+    padding: 10px 10px;     
  }
 
 .col-1-1-contact-form a:down {
-    background: #bbb;
-    border-top: solid 2px #777;
-    border-left: solid 2px #777;
-    border-bottom:solid 2px  #eaeaea;
-    border-right: solid 2px #eaeaea;
+    background: #8baaad;
+    border-top: solid 2px #8baaad;
+
     }
 }
 
@@ -591,7 +586,10 @@ figure.events:hover h3 {
 }
 
 #events-section{
+      border-top: solid 1px #d3d3d3;
+margin-top: 2rem;
   text-align: center;
+  padding-top: 2em;
 }
 #events-section h1{
   text-align: center;
