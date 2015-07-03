@@ -123,7 +123,6 @@ background-color: black;
   header{
     height: 5em;
     padding-top: 2em;
-    text-align: center;
   }
   .desktop-nav {
     visibility: hidden;
@@ -135,6 +134,15 @@ background-color: black;
     visibility: visible; 
 
   }
+
+ .intro video {
+  display: none;
+  visibility: hidden;
+
+  }
+.intro .video-img{
+  visibility: visible;
+}
 .col-1-2-instructor {
   width: 100%;
 }
@@ -143,7 +151,7 @@ background-color: black;
 
 header {
   display: inline-block;
-  text-align: right;
+  text-align: center;
   margin: 0 auto;
   padding-top: 2em;
   z-index: 100;
@@ -182,6 +190,14 @@ section {
 
 }
 
+.video-img {
+  visibility: hidden;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
 
 .col-1-1-intro {
   width: 100%;
@@ -211,6 +227,9 @@ section {
 }
 
 .intro video {
+
+  background: url(alfonso_jess.jpg) no-repeat;
+background-size: cover;
 }
 
 /*.col-1-1-img{
@@ -586,7 +605,7 @@ figure.events:hover h3 {
 
 #events-section{
       border-top: solid 1px #d3d3d3;
-margin-top: 2rem;
+margin-top: 0;
   text-align: center;
   padding-top: 2em;
 }
