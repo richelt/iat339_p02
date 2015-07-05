@@ -300,67 +300,6 @@ background-size: cover;
     height: 300px;
 }*/
 
-.salsa{
-  height: 70vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-
-}
-
-.col-1-1-salsa {
-  width: 100%;
-  height: auto;
-  text-align: center;
-
-}
-
-.bachata{
-  height: 70vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-
-}
-
-.col-1-1-bachata {
-  width: 100%;
-  height: auto;
-  text-align: center;
-
-}
-
-.col-1-1-salsa p{
-  color: black;
-  line-height: 1.5em;
-  text-align: center;
-  float:center;
-  width:auto;
-  padding: 2em 20%;
- }
-.col-1-1-salsa h1 {
-  padding-top: 1em;
-
-}
-
-.col-1-1-bachata p{
-  color: black;
-  line-height: 1.5em;
-  text-align: center;
-  float:center;
-  width:auto;
-  padding: 2em 20%;
- }
-.col-1-1-bachata h1 {
-  padding-top: 1em;
-
-}
-
-.col-1-1-bachata h3 {
-  padding-top: 1em;
-  color:black;
-
-}
 
 
 .block-img h1 {
@@ -379,6 +318,43 @@ background-size: cover;
   width: 100%;
 }
 
+
+.classes-img h1 {
+  color: white;
+}
+.classes-img {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  height: 400px;
+    background: url(salsa2.jpg) no-repeat;
+background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+}
+
+.class-info {
+  position: relative;
+  text-align: center;
+  z-index: 3;
+  width: 100%;
+}
+
+.class-info .bachata-btn{
+
+float: left;
+width: 50%;
+height: auto;
+}
+
+.class-info .salsa-btn{
+
+float: right;
+width: 50%;
+height: auto;
+}
 
 
 
