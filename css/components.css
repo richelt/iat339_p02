@@ -321,6 +321,7 @@ background-size: cover;
 
 .classes-img h1 {
   color: white;
+
 }
 .classes-img {
   text-align: center;
@@ -340,6 +341,7 @@ background-size: cover;
   text-align: center;
   z-index: 3;
   width: 100%;
+  padding: 3em;
 }
 
 .class-info .bachata-btn{
@@ -347,6 +349,8 @@ background-size: cover;
 float: left;
 width: 50%;
 height: auto;
+padding: 2em;
+
 }
 
 .class-info .salsa-btn{
@@ -354,9 +358,27 @@ height: auto;
 float: right;
 width: 50%;
 height: auto;
+padding: 2em;
 }
 
+.bachata-btn .lg-btn{
+  float: right;
 
+}
+
+.salsa-btn .lg-btn{
+  float: left;
+
+}
+
+.lg-btn {
+  border-color: white;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid;
+  padding: 2em;
+}
 
 .col-1-1-about{
   padding: 1em;
