@@ -39,5 +39,9 @@ $(document).ready(function() {
 
 
 $('#selected').click(function(){
-    $("#selected").css('border','1px solid');
+    $(this).css('border','1px solid white');
+});
+
+$('#selected1').click(function(){
+    $(this).css('border','1px solid white');
 });
