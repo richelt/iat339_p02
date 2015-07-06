@@ -39,5 +39,5 @@ $(document).ready(function() {
 
 
 $('#selected').click(function(){
-    $("figure.events img").css('opacity','0');
+    $("#selected").css('border','1px solid');
 });
