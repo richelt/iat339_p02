@@ -352,6 +352,7 @@ padding: 2em;
 
 }
 
+
 .class-info .salsa-btn{
 
 float: right;
@@ -360,16 +361,28 @@ height: auto;
 padding: 2em;
 }
 
-.bachata-btn .lg-btn{
+
+.bachata-btn a .lg-btn{
   float: right;
 
 }
 
-.salsa-btn .lg-btn{
+.salsa-btn a .lg-btn{
   float: left;
 
 }
 
+a:hover .lg-btn{
+  background-color: black;
+  border-color: black;
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+
+
+}
 .lg-btn {
   border-color: white;
   width: 50%;
