@@ -19,24 +19,18 @@
 
   <div class="page-content">
 
-          <div class="content-inner">
-            <header>
-              <div class= "desktop-nav">
+          <div class="content-inner form">  
+              <section class="payment-form grid grid-pad" id="payment-section"> 
 
+              <div class="back">
                 <a class="button-nav-side" href="class-details.html">BACK</a>
-              </div>
-            </header>
-
-              <section class="contact-form grid grid-pad" id="contact-section"> 
-
-              <div class="col-1-1-contact-form">
-
-              
-
-                  <div class="col-1-1-contact-form">
+            </div>  
+               <div class="col-1-1-payment-form">
                     <h1>Enroll</h1>
                     <h4>Join Bravo</h4>
-                   <section class="classes grid" id="classes-section">
+                   
+
+                   <section class="payment grid" id="payment-section">
                     <div class="col-1-1-events"> 
                       <ul>
 
@@ -63,7 +57,8 @@
                         </li>
                       </ul>
                     </div>
-                  </section>
+                  
+                 
                         <div class="days">
                           <p>my available days of the week</p>
                           <input type="checkbox" id="monday" name="days" value="monday"><label for="monday">Monday</label>
@@ -72,14 +67,11 @@
                            <input type="checkbox"  id="thursday"name="days" value="thursday"><label for="thursday">Thursday</label>
                            <input type="checkbox" id="friday" name="days" value="friday"><label for="friday">Friday</label>                      
                            <input type="checkbox" id="saturday" name="days" value="saturday"><label for="saturday">Saturday</label>
-                        </div>   
+                        </div>  
 
-                        <div class="checkout">
-                             <a href="http://paypal.com" target="_blank"><img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png" alt="Buy now with PayPal" /></a>
-                             <p>or by credit card:</p>
-                        </div>
 
-                            <form method="post" action='#' id="form" class="form">
+                        <div class="col-1-4-payment-form">
+                            <form method="post" action='#' id="form" class="form payment">
                             <!-- <label for="form-name">Name:</label> -->
                             <input type="text" name="form-name" id="form-name" class="input" placeholder="First Name">                              
                             <input type="text" name="form-last-name" id="form-last-name" class="input" placeholder="Last Name">
@@ -96,15 +88,16 @@
 
                          </form>
 
-
-                             <a href="#" class="button-submit form">submit</a>
-
+                         <div class="submit-form">
+                             <a href="thank_you.html" class="button-submit form">submit</a></div>
+                        </div> 
+              
                     </div>
+
+
                   </div>
                </section>
           </div>
-
-    </div>
     </div>
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
