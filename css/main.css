@@ -125,22 +125,47 @@ div code {
 }
 
 .mon {
-  background-color: #ba2d0b;
+  background: url(scotia.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
+
 }
 .tues {
-  background-color: #f9a03f;
+    background: url(peretz.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 .wed {
-  background-color: #37515f;
+    background: url(duello.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 .thurs{
-  background-color: #18314f;
+ background: url(peretz.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 .friday {
-background-color: #ba2d0b;
+  background: url(dance1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 .sat {
-  background-color: #37515f;
+  background: url(scotia.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
 
 }
 .col-1-3 {
@@ -996,13 +1021,11 @@ li {
 
 */
 
-img {
+/*img {
   height: auto; 
-  width: auto;
-  max-width: 100%;
-  border: 1px solid #888888; 
+  width: 100%;
 }
-
+*/
 
 figure {
   margin: 0;
