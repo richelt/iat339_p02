@@ -190,8 +190,48 @@ background-color: black;
 
 
   }
+
+.salsa-btn{
+
+  width: 100% !important;
+
+  }
+
+ .bachata-btn{
+
+  width: 100% !important;
+  display: inline-block;
+  text-align: center;
+
+  }
+
+  .lg-btn {
+
+  border-color: white;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid;
+  padding: 2em;
+
+  }
   
+  .bachata-btn a .lg-btn{
+  float: none;
+
 }
+
+.salsa-btn a .lg-btn{
+  float: none;
+
+}
+
+.classes-img {
+    height: 600px !important;
+}
+
+}
+
 
 @media screen and (min-width: 50em){
   .col-1-6-contact-form {
@@ -201,6 +241,27 @@ background-color: black;
     width: 40%;
 
   }
+
+
+  .bachata-btn a .lg-btn {
+   float: right;
+   } 
+
+.salsa-btn a .lg-btn{
+  float: left;
+
+}
+.lg-btn {
+  border-color: white;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid;
+  padding: 2em;
+
+  min-width: 50%
+}
+
 
 }
 header {
@@ -362,15 +423,6 @@ padding: 2em;
 }
 
 
-.bachata-btn a .lg-btn{
-  float: right;
-
-}
-
-.salsa-btn a .lg-btn{
-  float: left;
-
-}
 
 a:hover .lg-btn{
   background-color: black;
@@ -383,14 +435,7 @@ a:hover .lg-btn{
 
 
 }
-.lg-btn {
-  border-color: white;
-  width: 50%;
-  display: inline-block;
-  text-align: center;
-  border: 1px solid;
-  padding: 2em;
-}
+
 .lg-btn a{
   border-color: white;
   width: 50%;
@@ -539,6 +584,7 @@ font-size: 0.75em;
   display: block;
 float: left;
 margin: 0 0;
+max-width: 800px;
 
 
 }
